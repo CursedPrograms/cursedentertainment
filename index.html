@@ -15,45 +15,57 @@
         margin: 0 auto;
       }
       .horizontal-menu {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.horizontal-menu li {
-  display: inline-block;
-}
-
-.horizontal-menu li a {
-  display: block;
-  padding: 10px;
-  color: #fff;
-  text-decoration: none;
-}
-
-.horizontal-menu li a:hover {
-  background-color: #333;
-}
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+      }
+      .horizontal-menu li {
+        display: inline-block;
+      }
+      .horizontal-menu li a {
+        display: block;
+        padding: 10px;
+        color: #fff;
+        text-decoration: none;
+      }
+      .horizontal-menu li a:hover {
+        background-color: #333;
+      }
+      .qr-code {
+        display: inline-block;
+        width: 120px;
+        height: 120px;
+        margin-left: 10px;
+      }
+      .content {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: left;
+      }
     </style>
   </head>
   <body>
-    <img src="spr_cursedLogo.png" alt="CursedEntertainment Logo" width="277" height="149">
+    <header>
+      <img src="spr_cursedLogo.png" alt="CursedEntertainment Logo" width="277" height="149">
+    </header>
+    <div class="horizontal-menu">
       <ul>
-       <ul class="horizontal-menu">
-      <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/games.html">Games</a></li>        
-  <li><a href="https://audiomack.com/cursedsoft">Music</a></li>
-  <li><a href="https://github.com/CursedPrograms">Software</a></li>
-  <li><a href="https://www.yumpu.com/user/cursed.entertainment">Stories</a></li>
-           <li><a href="https://cursed-entertainment.itch.io/">itch.io</a></li>
-         <img src="CURSED QR.jpg" alt="QR" width="120" height="120">  
-
-<div class="container">
-  <h1>Cursed Entertainment</h1>
-  <h1>Overview:</h1>
-  <p>Cursed Entertainment is an independent studio that specializes in creating immersive and engaging video games, publishing books, software, and music based on original intellectual property. We focus on delivering high-quality and innovative entertainment experiences to our audience.</p>
-  <h2>Mission:</h2>
-  <p>Our mission at Cursed Entertainment is to create exceptional and unforgettable entertainment experiences that immerse our audience in imaginative and engaging worlds, whether it be through video games, books, or music.</p>
-  <h2>AI:</h2>
+        <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/games.html">Games</a></li>        
+        <li><a href="https://audiomack.com/cursedsoft">Music</a></li>
+        <li><a href="https://github.com/CursedPrograms">Software</a></li>
+        <li><a href="https://www.yumpu.com/user/cursed.entertainment">Stories</a></li>
+        <li><a href="https://cursed-entertainment.itch.io/">itch.io</a></li>
+      </ul>
+      <img class="qr-code" src="CURSED QR.jpg" alt="QR">
+    </div>
+    <div class="content">
+      <h1>Overview:</h1>
+      <p>Cursed Entertainment is an independent studio that specializes in creating immersive and engaging video games, publishing books, software, and music based on original intellectual property. We focus on delivering high-quality and innovative entertainment experiences to our audience.</p>
+      <h2>Mission:</h2>
+      <p>Our mission at Cursed Entertainment is to create exceptional and unforgettable entertainment experiences that immerse our audience in imaginative and engaging worlds, whether it be through video games, books, or music.</p>
+      <h2>AI:</h2>
   <p>Our main product is Confederate AI, a powerful and versatile AI-based system for Unity that includes a range of features, such as Unity Navmesh compatibility, player and AI detection, path system, 3 faction system, ragdoll and animated deaths, melee combat system, companion system, spawning system, and more. Confederate AI is easy to use and set up with editor windows and debugger tools that help developers create AI characters, spawners, a game controller, manage waypoints and paths, and more.</p>
   <h2>Video Games:</h2>
   <p>Our video game portfolio includes a range of genres, including sci-fi, horror, and adventure games. Our games immerse players in worlds that are both compelling and unique, challenging them to solve complex puzzles and explore new worlds.</p>
