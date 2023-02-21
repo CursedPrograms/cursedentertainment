@@ -4,27 +4,28 @@
     <title>CursedEntertainment</title>
 <style>
   body {
+	   max-width: 100%;
     background-color: #007ab7;
-    color: white;
+    color: white;	  
+	  align-items: center;
   }
-  header {
-    display: flex;
-  justify-content: center;
-  max-width: 100%;
-  }
-  header img {
+	.header_container{
+		padding-top: -15;
+   min-width:  100%;
+    background-color: #007ab7;
+    position: fixed;
+	}
+	
+  .header_img {
 	  text-align:center;
-width:100%;
 	   display: block;
   justify-content: center;
 	  align-items: center;
-    margin: auto;
+    margin: auto;	  
   }
   
   .horizontal-menu {
     list-style: none;
-    margin: 0;
-    padding: 0;
 	  padding-right: 25px;
     display: flex;
     align-items: center;
@@ -33,12 +34,10 @@ width:100%;
   .horizontal-menu li {
     display: inline-block;
   }
-  .horizontal-menu li a {
-	  
+  .horizontal-menu li a {	  
    display: block;
   color: white;
-  text-align: right;
-	  
+  text-align: right;	  
   padding: 15px;
   text-decoration: none;
   }
@@ -46,14 +45,13 @@ width:100%;
   background-color: #f088e9;
 }
  .content {
-  max-width: 70%;
-  margin: 0 auto;
-  text-align: center;
-	 align-items: center;
-  display: flex;
-  flex-direction: column;
-   padding-bottom: 5%;
-	 padding-top: 5%;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
 }
 	
 	.icon-container {
@@ -73,11 +71,17 @@ width:100%;
   display: block; /* Remove any default padding and margin */
 }
 	
+	.container {		
+		padding-top: 230px;
+		 max-width: 70%;
+	}
+	
 </style>
   </head>
-  <body>    
+  <body>		  
 	  <div  class="content">
-    <div  class="header img">			
+			    <div  class="header_container">
+    <div  class="header_img">			
         <img src="spr_cursedLogo.png" alt="CursedEntertainment Logo" width="277" height="149">  
 			</div>   
 		 <div class="horizontal-menu">				 
@@ -89,7 +93,8 @@ width:100%;
         <li><a href="https://www.yumpu.com/user/cursed.entertainment">Stories</a></li>
         <li><a href="https://cursed-entertainment.itch.io/">itch.io</a></li>
       </ul>      
-    </div>   
+    </div>   </div> 
+		  <div  class="container">
       <h1>Overview:</h1>
       <p>Cursed Entertainment is an independent studio that specializes in creating immersive and engaging video games, publishing books, software, and music based on original intellectual property. We focus on delivering high-quality and innovative entertainment experiences to our audience.</p>
       <h2>Mission:</h2>
@@ -140,6 +145,6 @@ width:100%;
 	    呪われた エンターテイメント
 	    <br>
 		Cursed Entertainment 2023
-</div>
+</div> </div>
   </body>
 </html>
