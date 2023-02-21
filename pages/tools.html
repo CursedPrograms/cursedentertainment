@@ -7,6 +7,10 @@
         background-color: #007ab7;
 		  color: #fff;
       }
+		
+		footer{
+		text-align: center;	
+	}
       
       iframe {
         margin: 20px 0;
@@ -23,23 +27,39 @@
         text-decoration: none;
       }
       
-      #container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-       min-height: 100vh;
-      }
+      .container {
+    padding-top: 250px;
+    max-width: 100%;
+    text-align: left;
+	}
       
       h1 {
         color: #fff;
         text-align: center;
         margin-top: 0;
       }
-       .horizontal-menu {
+		
+		.header_container{
+    padding-top: 4%;
+    max-height: 230px;
+    min-width: 100%;
+    background-color: #007ab7;
+    position: fixed;
+    top: -24px;
+    border-bottom: thin inset #FFFFFF;
+	}
+	
+  .header_img {
+	  text-align:center;
+	   display: block;
+  justify-content: center;
+	  align-items: center;
+    margin: auto;	  
+  }
+		
+ .horizontal-menu {
     list-style: none;
-    margin: 0;
-    padding: 0;
+	  padding-right: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,21 +67,44 @@
   .horizontal-menu li {
     display: inline-block;
   }
-  .horizontal-menu li a {
-    display: block;
-    padding: 10px;
-    color: #fff;
-    text-decoration: none;
-    align-items: center;
+  .horizontal-menu li a {	  
+   display: block;
+  color: white;
+  text-align: right;	  
+  padding: 15px;
+  text-decoration: none;
   }
+	 .content {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2%;
+}
   .horizontal-menu li a:hover {
   background-color: #f088e9;
 }
 			.icon-container {
-		padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: thin outset #FFFFFF;
+    max-width: 100%;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 100%;
+}
+
+.icon-container {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: thin outset #FFFFFF;
 }
 
 .icon-container a {
@@ -77,16 +120,23 @@
     </style>
   </head>
   <body>
-    <div id="container">
-       <div class="horizontal-menu">
+    <div  class="content">
+         <div  class="header_container">
+    <div  class="header_img">			
+        <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/spr_cursedLogo.png" alt="CursedEntertainment Logo" width="277" height="149">  
+			</div>   
+		 <div class="horizontal-menu">				 
+      <br>
       <ul>
-        <li><a href="https://cursedprograms.github.io/cursedentertainment/index.html">Home</a></li>     
-       <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/games.html">Games</a></li> 
+        <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/games.html">Games</a></li>     
+        <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/tools.html">Tools</a></li>  
         <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/soundtracks.html">Music</a></li> 
         <li><a href="https://www.yumpu.com/user/cursed.entertainment">Stories</a></li>
         <li><a href="https://cursed-entertainment.itch.io/">itch.io</a></li>
       </ul>      
-    </div>   
+    </div>   </div> 
+		<br>
+	   <div  class="container">
       <h1>Tools</h1>
    <iframe frameborder="0" src="https://itch.io/embed/1921106?border_width=0&amp;bg_color=007ab7&amp;fg_color=ffffff&amp;link_color=f088e9&amp;border_color=ffffff" width="550" height="165"><a href="https://cursed-entertainment.itch.io/confederate-ai">Confederate AI by Cursed</a></iframe>
 		<div class="icon-container">
@@ -119,9 +169,8 @@
   </a>
 </div>
 		<br>
-	    呪われた エンターテイメント
-	    <br>
-		Cursed Entertainment 2023
-    </div>
+	    <footer>呪われた エンターテイメント <br>
+		Cursed Entertainment 2023</footer>
+    </div></div>
   </body>
 </html>
