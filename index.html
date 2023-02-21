@@ -93,12 +93,42 @@
     padding-top: 250px;
     max-width: 70%;
     text-align: left;
+    display: inline-block;
 	}
 	
+	#twitter-timeline{
+		padding-top: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 14%;
+    list-style: none;
+    padding-right: 25px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	}
+	
+	.twitter-container {
+		padding-left: 2%;
+  max-width: 70%;
+  margin-left: 200px; /* adjust this value as needed */
+  text-align: left;
+  display: inline-block;
+}
+	
 </style>
+<head>
+		   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </head>
-  <body>		  
-	  <div  class="content">
+  <body>
+	  <div  class="twittercontainer">
+	   <div id="twitter-timeline">
+  <a class="twitter-timeline" data-width="500" data-height="600" data-theme="light" href="https://twitter.com/NorowaretaGemu">Tweets by NorowaretaGemu</a>
+</div></div>
+	  <div  class="content">		  
 			    <div  class="header_container">
     <div  class="header_img">			
         <img src="spr_cursedLogo.png" alt="CursedEntertainment Logo" width="277" height="149">  
@@ -113,7 +143,7 @@
         <li><a href="https://cursed-entertainment.itch.io/">itch.io</a></li>
       </ul>      
     </div>   </div> 
-		  <br>
+		  <br>		 
 		  <div  class="container">
       <h1>Overview:</h1>
       <p>Cursed Entertainment is an independent studio that specializes in creating immersive and engaging video games, publishing books, software, and music based on original intellectual property. We focus on delivering high-quality and innovative entertainment experiences to our audience.</p>
@@ -132,7 +162,7 @@
   <h2>Vision:</h2>
   <p>Our vision for the future is to continue creating exceptional and unforgettable entertainment experiences, and to push the boundaries of what is possible in video games, books, and music. We will continue to explore new genres and technologies to create unique and engaging experiences for our fans.</p>
 		
-		<div class="icon-container">
+		<div class="icon-container">			
   <a href="https://www.facebook.com/CursedEntertainment/">
      <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/fb_white.png" alt="Facecbook" width="34" height="34">
   </a>
