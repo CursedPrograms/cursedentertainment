@@ -119,6 +119,29 @@
   display: inline-block;
 }
 	
+	#qr-code{
+    padding-top: 300px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 14%;
+    list-style: none;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px; /* add this line */
+}
+
+.qr-container {
+    max-width: 70%;
+    margin-left: 200px; /* adjust this value as needed */
+    text-align: right;
+    display: inline-block;
+}
+}
+	
 </style>
 <head>
 		   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -128,6 +151,12 @@
 	   <div id="twitter-timeline">
   <a class="twitter-timeline" data-width="500" data-height="600" data-theme="light" href="https://twitter.com/NorowaretaGemu">Tweets by NorowaretaGemu</a>
 </div></div>
+	   <div  class="qr-container">
+		   <div id="qr-code">
+	  <a href="https://linktr.ee/cursedentertainment">
+  <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/CURSED QR.jpg" alt="QR Code" width="250" height="250">
+</a> 
+	  </div></div>
 	  <div  class="content">		  
 			    <div  class="header_container">
     <div  class="header_img">			
