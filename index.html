@@ -1,28 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>CursedEntertainment</title>
+<head>
+<title>CursedEntertainment</title>
 <style>
-  body {
-	   max-width: 100%;	  
+body {
+    max-width: 100%;
     background-color: #007ab7;
-    color: white;	  
-	  align-items: center;
-  }
-	
-	h1{
-		text-align: center;	
-	}
-	
-	h2{
-		text-align: center;	
-	}
-	
-	footer{
-		text-align: center;	
-	}
-	
-	.header_container{
+    color: white;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+.header_container {
     padding-top: 4%;
     max-height: 230px;
     min-width: 100%;
@@ -30,38 +26,35 @@
     position: fixed;
     top: -24px;
     border-bottom: thin inset #FFFFFF;
-	}
-	
-  .header_img {
-	  text-align:center;
-	   display: block;
-  justify-content: center;
-	  align-items: center;
-    margin: auto;	  
-  }
-  
-  .horizontal-menu {
+}
+.header_img {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.horizontal-menu {
     list-style: none;
-	  padding-right: 25px;
+    padding-right: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  .horizontal-menu li {
-    display: inline-block;
-  }
-  .horizontal-menu li a {	  
-   display: block;
-  color: white;
-  text-align: right;	  
-  padding: 15px;
-  text-decoration: none;
-  }
-	
-  .horizontal-menu li a:hover {
-  background-color: #f088e9;
 }
- .content {
+.horizontal-menu li {
+    display: inline-block;
+}
+.horizontal-menu li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 15px;
+    text-decoration: none;
+}
+.horizontal-menu li a:hover {
+    background-color: #f088e9;
+}
+.content {
     max-width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -70,34 +63,29 @@
     flex-direction: column;
     padding-bottom: 2%;
 }
-	
-	.icon-container {
+.icon-container {
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-top: thin outset #FFFFFF;
 }
-
 .icon-container a {
-  text-indent: 110%; /* Set the text-indent to a value larger than the container width */
-  white-space: nowrap; /* Prevent the text from wrapping */
-  overflow: hidden; /* Hide any overflow */
+    text-indent: 110%; /* Set the text-indent to a value larger than the container width */
+    white-space: nowrap; /* Prevent the text from wrapping */
+    overflow: hidden; /* Hide any overflow */
 }
-
 .icon-container img {
-  display: block; /* Remove any default padding and margin */
+    display: block; /* Remove any default padding and margin */
 }
-	
-	.container {
+.container {
     padding-top: 250px;
     max-width: 70%;
     text-align: left;
     display: inline-block;
-	}
-	
-	#twitter-timeline{
-		padding-top: 300px;
+}
+#twitter-timeline {
+    padding-top: 300px;
     position: fixed;
     top: 0;
     left: 0;
@@ -109,17 +97,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-	}
-	
-	.twitter-container {
-		padding-left: 2%;
-  max-width: 70%;
-  margin-left: 200px; /* adjust this value as needed */
-  text-align: left;
-  display: inline-block;
 }
-	
-	#qr-code{
+.twitter-container {
+    padding-left: 2%;
+    max-width: 70%;
+    margin-left: 200px; /* adjust this value as needed */
+    text-align: left;
+    display: inline-block;
+}
+#qr-code {
     padding-top: 300px;
     position: fixed;
     top: 0;
@@ -133,7 +119,6 @@
     align-items: center;
     padding-right: 10px; /* add this line */
 }
-
 .qr-container {
     max-width: 70%;
     margin-left: 200px; /* adjust this value as needed */
@@ -141,89 +126,54 @@
     display: inline-block;
 }
 }
-	
 </style>
 <head>
-		   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </head>
-  <body>
-	  <div  class="twittercontainer">
-	   <div id="twitter-timeline">
-  <a class="twitter-timeline" data-width="500" data-height="600" data-theme="light" href="https://twitter.com/NorowaretaGemu">Tweets by NorowaretaGemu</a>
-</div></div>
-	   <div  class="qr-container">
-		   <div id="qr-code">
-	  <a href="https://linktr.ee/cursedentertainment">
-  <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/CURSED QR.jpg" alt="QR Code" width="250" height="250">
-</a> 
-	  </div></div>
-	  <div  class="content">		  
-			    <div  class="header_container">
-    <div  class="header_img">			
-        <img src="spr_cursedLogo.png" alt="CursedEntertainment Logo" width="277" height="149">  
-			</div>   
-		 <div class="horizontal-menu">				 
-      <br>
-      <ul>
-        <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/games.html">Games</a></li>     
-        <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/tools.html">Tools</a></li>  
-        <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/soundtracks.html">Music</a></li> 
-        <li><a href="https://www.yumpu.com/user/cursed.entertainment">Stories</a></li>
-		  <li><a href="https://cursedentertainment.indie.af/">GJ Portfolio</a></li>
-        <li><a href="https://cursed-entertainment.itch.io/">itch.io</a></li>		  
-      </ul>      
-    </div>   </div> 
-		  <br>		 
-		  <div  class="container">
-      <h1>Overview:</h1>
-      <p>Cursed Entertainment is an independent studio that specializes in creating immersive and engaging video games, publishing books, software, and music based on original intellectual property. We focus on delivering high-quality and innovative entertainment experiences to our audience.</p>
-      <h2>Mission:</h2>
-      <p>Our mission at Cursed Entertainment is to create exceptional and unforgettable entertainment experiences that immerse our audience in imaginative and engaging worlds, whether it be through video games, books, or music.</p>
-      <h2>AI:</h2>
-  <p>Our main product is Confederate AI, a powerful and versatile AI-based system for Unity that includes a range of features, such as Unity Navmesh compatibility, player and AI detection, path system, 3 faction system, ragdoll and animated deaths, melee combat system, companion system, spawning system, and more. Confederate AI is easy to use and set up with editor windows and debugger tools that help developers create AI characters, spawners, a game controller, manage waypoints, paths, and more.</p>
-  <h2>Video Games:</h2>
-  <p>Our video game portfolio includes a range of genres, including sci-fi, horror, and adventure games. Our games immerse players in worlds that are both compelling and unique, challenging them to solve complex puzzles and explore new worlds.</p>
-  <h2>Books and Music:</h2>
-  <p>Cursed Entertainment also publishes books and music based on original intellectual property, including the Lore of the Myxztrii. Our books and music bring to life the worlds and characters from our video games, providing fans with deeper insight into the stories that they love.</p>
-  <h2>Record Label:</h2>
-  <p>Our independent record label is dedicated to discovering and promoting up-and-coming artists across a variety of genres, including electronic, indie, and experimental music. We pride ourselves on fostering a creative and collaborative environment, where our artists can showcase their unique talents and grow their fan base.</p>
-  <h2>Culture:</h2>
-  <p>At Cursed Entertainment, we value innovation, creativity, and collaboration. We believe in fostering an environment where our employees can grow both professionally and personally, and where they feel empowered to take ownership of their work.</p>
-  <h2>Vision:</h2>
-  <p>Our vision for the future is to continue creating exceptional and unforgettable entertainment experiences, and to push the boundaries of what is possible in video games, books, and music. We will continue to explore new genres and technologies to create unique and engaging experiences for our fans.</p>
-		
-		<div class="icon-container">			
-  <a href="https://www.facebook.com/CursedEntertainment/">
-     <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/fb_white.png" alt="Facecbook" width="34" height="34">
-  </a>
-  <a href="https://www.instagram.com/cursedentertainment/">
-    <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/instagram_white.png" alt="Instagram" width="32" height="32">
-  </a>  
-  <a href="https://www.youtube.com/channel/UCmTHNMTp-i1TY-jxMqSjBpw">
-    <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/yt_white.png" alt="YouTube" width="34" height="34">
-  </a>
-  <a href="https://www.tiktok.com/@cursedentertainment">
-    <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/tiktok_white.png" alt="Tiktok" width="34" height="34">  
-  </a>
-  <a href="https://www.behance.net/cursedentertainment">
-     <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/behance_white.png" alt="Behance" width="34" height="34">
-  </a>
-  <a href="https://github.com/CursedPrograms">
-    <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/gh_white.png" alt="GitHub" width="34" height="34">
-  </a>
-  <a href="https://cursed-entertainment.itch.io/">
-   <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/itch.io_white.png" alt="itch.io" width="32" height="32">  
-  </a>
-  <a href="https://gamejolt.com/@CursedEntertainment">
-    <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/gj_white.png" alt="GameJolt" width="34" height="34">  
-  </a>
-  <a href="https://soundcloud.com/cursedentertainment">
-    <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/sc_white.png" alt="Behance" width="34" height="34">
-  </a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</head>
+<body>
+<div  class="twittercontainer">
+  <div id="twitter-timeline"> <a class="twitter-timeline" data-width="500" data-height="600" data-theme="light" href="https://twitter.com/NorowaretaGemu">Tweets by NorowaretaGemu</a> </div>
 </div>
-		<br>
-        <footer>呪われた エンターテイメント <br>
-		Cursed Entertainment 2023</footer>
-        </div> </div>
-  </body>
+<div  class="qr-container">
+  <div id="qr-code"> <a href="https://linktr.ee/cursedentertainment"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/CURSED QR.jpg" alt="QR Code" width="150" height="150"> </a> </div>
+</div>
+<div  class="content">
+  <div  class="header_container">
+    <div  class="header_img"> <img src="spr_cursedLogo.png" alt="CursedEntertainment Logo" width="277" height="149"> </div>
+    <div class="horizontal-menu"> <br>
+      <ul>
+        <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/games.html">Games</a></li>
+        <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/tools.html">Tools</a></li>
+        <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/soundtracks.html">Music</a></li>
+        <li><a href="https://www.yumpu.com/user/cursed.entertainment">Stories</a></li>
+        <li><a href="https://cursedentertainment.indie.af/">GJ Portfolio</a></li>
+        <li><a href="https://cursed-entertainment.itch.io/">itch.io</a></li>
+      </ul>
+    </div>
+  </div>
+  <br>
+  <div  class="container">
+    <h1>Overview:</h1>
+    <p>Cursed Entertainment is an independent studio that specializes in creating immersive and engaging video games, publishing books, software, and music based on original intellectual property. We focus on delivering high-quality and innovative entertainment experiences to our audience.</p>
+    <h2>Mission:</h2>
+    <p>Our mission at Cursed Entertainment is to create exceptional and unforgettable entertainment experiences that immerse our audience in imaginative and engaging worlds, whether it be through video games, books, or music.</p>
+    <h2>AI:</h2>
+    <p>Our main product is Confederate AI, a powerful and versatile AI-based system for Unity that includes a range of features, such as Unity Navmesh compatibility, player and AI detection, path system, 3 faction system, ragdoll and animated deaths, melee combat system, companion system, spawning system, and more. Confederate AI is easy to use and set up with editor windows and debugger tools that help developers create AI characters, spawners, a game controller, manage waypoints, paths, and more.</p>
+    <h2>Video Games:</h2>
+    <p>Our video game portfolio includes a range of genres, including sci-fi, horror, and adventure games. Our games immerse players in worlds that are both compelling and unique, challenging them to solve complex puzzles and explore new worlds.</p>
+    <h2>Books and Music:</h2>
+    <p>Cursed Entertainment also publishes books and music based on original intellectual property, including the Lore of the Myxztrii. Our books and music bring to life the worlds and characters from our video games, providing fans with deeper insight into the stories that they love.</p>
+    <h2>Record Label:</h2>
+    <p>Our independent record label is dedicated to discovering and promoting up-and-coming artists across a variety of genres, including electronic, indie, and experimental music. We pride ourselves on fostering a creative and collaborative environment, where our artists can showcase their unique talents and grow their fan base.</p>
+    <h2>Culture:</h2>
+    <p>At Cursed Entertainment, we value innovation, creativity, and collaboration. We believe in fostering an environment where our employees can grow both professionally and personally, and where they feel empowered to take ownership of their work.</p>
+    <h2>Vision:</h2>
+    <p>Our vision for the future is to continue creating exceptional and unforgettable entertainment experiences, and to push the boundaries of what is possible in video games, books, and music. We will continue to explore new genres and technologies to create unique and engaging experiences for our fans.</p>
+    <div class="icon-container"> <a href="https://www.facebook.com/CursedEntertainment/"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/fb_white.png" alt="Facecbook" width="34" height="34"> </a> <a href="https://www.instagram.com/cursedentertainment/"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/instagram_white.png" alt="Instagram" width="32" height="32"> </a> <a href="https://www.youtube.com/channel/UCmTHNMTp-i1TY-jxMqSjBpw"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/yt_white.png" alt="YouTube" width="34" height="34"> </a> <a href="https://www.tiktok.com/@cursedentertainment"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/tiktok_white.png" alt="Tiktok" width="34" height="34"> </a> <a href="https://www.behance.net/cursedentertainment"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/behance_white.png" alt="Behance" width="34" height="34"> </a> <a href="https://github.com/CursedPrograms"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/gh_white.png" alt="GitHub" width="34" height="34"> </a> <a href="https://cursed-entertainment.itch.io/"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/itch.io_white.png" alt="itch.io" width="32" height="32"> </a> <a href="https://gamejolt.com/@CursedEntertainment"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/gj_white.png" alt="GameJolt" width="34" height="34"> </a> <a href="https://soundcloud.com/cursedentertainment"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/sc_white.png" alt="Behance" width="34" height="34"> </a> </div>
+    <br>
+    <footer>呪われた エンターテイメント <br>
+      Cursed Entertainment 2023</footer>
+  </div>
+</div>
+</body>
 </html>
