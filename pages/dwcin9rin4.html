@@ -6,8 +6,18 @@
 </head>
 
 <style>
+	
+	body {
+    background-color: #007ab7;
+    color: #fff;
+    display: block;
+    align-items: center;
+    padding-bottom: 2%;
+}
+	
 ul {
     list-style: none;
+	align-items: left;		
 }
 body {
     background-color: #007ab7;
@@ -24,21 +34,22 @@ strong {
 }
 iframe {
     margin-top: 20px;
-    margin-right: 0;
     margin-bottom: 20px;
     border: 0;
-    display: block;
+    display: flex;
     width: 100%;
-    max-width: 550px;
-    height: 165px;
+    max-width: 100%;
+    height: 200px;
+    margin-left: -14%;
 }
 a {
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
+	padding-bottom: 3px;
 }
 #container {
-    padding-top: 280px;
+    padding-top: 260px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,20 +83,38 @@ h1 {
 }
 .horizontal-menu {
     list-style: none;
-    padding-right: 25px;
+    padding-right: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 4px;
+    padding-left: 4px;
 }
 .horizontal-menu li {
     display: inline-block;
+    padding-right: 2px;
+    padding-bottom: 4px;
+    padding-left: 2px;
+    padding-top: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 16px;
 }
 .horizontal-menu li a {
-    display: block;
+    display: inherit;
     color: white;
-    text-align: right;
-    padding: 15px;
-    text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    background-color: #168FCC;
+    border-radius: 10px / 5px;
+    width: 100px;
+    border: thin solid #FFFFFF;
+    font-size: large;
+    height: 10px;
 }
 .content {
     max-width: 80%;
@@ -101,10 +130,25 @@ h1 {
 }
 .horizontal-menu li a:hover {
     background-color: #f088e9;
+    border: thin solid #FFFFFF;
+    border-radius: 8px / 4px;
+    opacity: 1;
+    color: #FFFFFF;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    display: inherit;
+    width: 100px;
+    font-size: large;
+    height: 10px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 16px 1px #FFFFFF;
+    box-shadow: 0px 0px 16px 1px #FFFFFF;
 }
 .icon-container {
     padding: 10px;
-    display: inline-grid;
+    display: flex;
     justify-content: center;
     align-items: center;
     border-top: thin outset #FFFFFF;
@@ -114,12 +158,7 @@ h1 {
     box-sizing: content-box;
     width: 100%;
 }
-.icon-container {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+	
 .icon-container a {
     text-indent: 110%; /* Set the text-indent to a value larger than the container width */
     white-space: nowrap; /* Prevent the text from wrapping */
@@ -138,9 +177,19 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     min-height: 40%;
     max-width: 2000px;
+    border: thin solid #FFFFFF;
+    border-radius: 41px / 30px;
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    background-image: -webkit-linear-gradient(270deg,rgba(0,122,183,1.00) 0%,rgba(254,70,231,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(0,122,183,1.00) 0%,rgba(254,70,231,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(0,122,183,1.00) 0%,rgba(254,70,231,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,122,183,1.00) 0%,rgba(254,70,231,1.00) 100%);
+    -webkit-box-shadow: 6px 7px 6px 3px #00547E;
+    box-shadow: 6px 7px 6px 3px #00547E;
 }
 .albums-container {
     justify-content: flex-start;
@@ -149,9 +198,8 @@ h1 {
     align-content: flex-start;
     flex-wrap: wrap;
     text-align: center;
-    padding-left: 5%;
-    min-width: 50%;
-    gap: 5px;
+    gap: 2%;
+	padding-bottom: 1%;
 }
 li {
     align-content: center;
@@ -160,7 +208,7 @@ li {
 </style>
 <body>
 <div class="header_container">
-  <div class="header_logo"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/spr_cursedLogo.png" alt="CursedEntertainment Logo" width="277" height="149"> </div>
+  <div class="header_logo"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/spr_cursedLogo.png" alt="CursedEntertainment Logo" width="138.5" height="74.5"> </div>
   <div class="horizontal-menu"> <br>
     <ul>
       <li><a href="https://cursedprograms.github.io/cursedentertainment/index.html">Home</a></li>
@@ -168,7 +216,7 @@ li {
       <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/tools.html">Tools</a></li>
       <li><a href="https://www.yumpu.com/user/cursed.entertainment">Stories</a></li>
       <li><a href="https://cursedentertainment.indie.af/">GJ Portfolio</a></li>
-      <li><a href="https://cursed-entertainment.itch.io/">itch.io</a></li>
+      <li><a href="https://cursed-entertainment.itch.io/" style="border-top-left-radius: margin-bottom: 1px">itch.io</a></li>
     </ul>
   </div>
 </div>
@@ -193,12 +241,12 @@ li {
             <ol>
               <li>Rage</li>
               <li>Humanity</li>
-            </ol>
-            <ul>
-              <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1490221711&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-            </ul>
+            </ol>           
           </li>
         </ul>
+		   <ul>
+              <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1490221711&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            </ul>
       </div>
       <div class="album-container">
         <ul>
@@ -329,6 +377,7 @@ li {
         </ul>
       </div>
     </div>
+	  <br>
     <div class="horizontal-menu"> <br>
       <ul>
         <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/paxzifizia.html">Paxzifizia</a></li>
@@ -338,6 +387,7 @@ li {
     </div>
   </div>
 </div>
+	<br>
 <div class="icon-container"> <a href="https://www.facebook.com/CursedEntertainment/"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/fb_white.png" alt="Facecbook" width="32" height="32"> </a> <a href="https://www.instagram.com/cursedentertainment/"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/instagram_white.png" alt="Instagram" width="32" height="32"> </a> <a href="https://www.youtube.com/channel/UCmTHNMTp-i1TY-jxMqSjBpw"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/yt_white.png" alt="YouTube" width="32" height="32"> </a> <a href="https://www.tiktok.com/@cursedentertainment"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/tiktok_white.png" alt="Tiktok" width="32" height="32"> </a> <a href="https://www.behance.net/cursedentertainment"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/behance_white.png" alt="Behance" width="32" height="32"> </a> <a href="https://github.com/CursedPrograms"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/gh_white.png" alt="GitHub" width="32" height="32"> </a> <a href="https://cursed-entertainment.itch.io/"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/itch.io_white.png" alt="itch.io" width="32" height="32"> </a> <a href="https://gamejolt.com/@CursedEntertainment"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/gj_white.png" alt="GameJolt" width="32" height="32"> </a> <a href="https://soundcloud.com/cursedentertainment"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/sc_white.png" alt="Behance" width="32" height="32"> </a> </div>
 <br>
 <footer>呪われた エンターテイメント <br>
