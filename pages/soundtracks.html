@@ -23,14 +23,14 @@ strong {
     text-align: center;
 }
 iframe {
-    margin-top: 20px;
-    margin-right: 0;
+   margin-top: 20px;
     margin-bottom: 20px;
     border: 0;
-    display: block;
+    display: flex;
     width: 100%;
-    max-width: 550px;
-    height: 165px;
+    max-width: 100%;
+    height: 200px;
+    margin-left: -14%;
 }
 a {
     color: #fff;
@@ -81,11 +81,19 @@ h1 {
     display: inline-block;
 }
 .horizontal-menu li a {
-    display: block;
+    display: inherit;
     color: white;
-    text-align: right;
-    padding: 15px;
-    text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    background-color: #168FCC;
+    border-radius: 10px / 5px;
+    width: 100px;
+    border: thin solid #FFFFFF;
+    font-size: large;
+    height: 10px;
 }
 .content {
     max-width: 80%;
@@ -100,7 +108,22 @@ h1 {
     height: 100%;
 }
 .horizontal-menu li a:hover {
-    background-color: #f088e9;
+     background-color: #f088e9;
+    border: thin solid #FFFFFF;
+    border-radius: 8px / 4px;
+    opacity: 1;
+    color: #FFFFFF;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    display: inherit;
+    width: 100px;
+    font-size: large;
+    height: 10px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 16px 1px #FFFFFF;
+    box-shadow: 0px 0px 16px 1px #FFFFFF;
 }
 .icon-container {
     padding: 10px;
@@ -133,31 +156,41 @@ h1 {
     display: block; /* Remove any default padding and margin */
 }
 .album-container {
-    text-align: center;
+   text-align: center;
     flex-basis: calc(33.33% - 40px);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     min-height: 40%;
     max-width: 2000px;
+    border: thin solid #FFFFFF;
+    border-radius: 41px / 30px;
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    background-image: -webkit-linear-gradient(270deg,rgba(0,122,183,1.00) 0%,rgba(254,70,231,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(0,122,183,1.00) 0%,rgba(254,70,231,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(0,122,183,1.00) 0%,rgba(254,70,231,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,122,183,1.00) 0%,rgba(254,70,231,1.00) 100%);
+    -webkit-box-shadow: 6px 7px 6px 3px #00547E;
+    box-shadow: 6px 7px 6px 3px #00547E;
 }
 .albums-container {
-    justify-content: flex-start;
+   justify-content: flex-start;
     align-items: flex-start;
     display: flex;
     align-content: flex-start;
     flex-wrap: wrap;
     text-align: center;
-    padding-left: 5%;
-    min-width: 50%;
-    gap: 5px;
+    gap: 2%;
+	padding-bottom: 1%;
 }
 li {
     align-content: center;
     text-align: center;
 }
 </style>
+
 <body>
 <div class="header_container">
   <div class="header_logo"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/spr_cursedLogo.png" alt="CursedEntertainment Logo" width="277" height="149"> </div>
@@ -184,6 +217,23 @@ li {
     <div class="albums-container">
       <div class="album-container">
         <ul>
+          <strong>Retrofizia - Beginning Theme</strong> <br>
+          <li>Release Date: Aug 09, 2020 </li>
+          <br>
+          <li><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/retrofiziaCoverSmall.jpg" alt="Arknia OST" width="150" height="150"></li>
+          <br>
+          <li>Tracklist:
+            <ol>
+              <li>Retrofizia</li>
+            </ol>
+            <ul>
+              <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1315116559&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="album-container">
+        <ul>
           <strong>Nystylla - Girls Of Maluxzka OST</strong> <br>
           <li>Release Date: Jul 11, 2021 (2017)</li>
           <br>
@@ -200,6 +250,24 @@ li {
             </ol>
             <ul>
               <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1476394819&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="album-container">
+        <ul>
+          <strong>Arise Mexzmiriah ST</strong> <br>
+          <li>Release Date: Jun 27, 2022</li>
+          <br>
+          <li><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/AriseMexzmiriahsit_small.jpg" alt="Arise Mexzmiriah ST" width="150" height="150"></li>
+          <br>
+          <li>Tracklist:
+            <ol>
+              <li>Her Desire</li>
+              <li>BDSM and Laserguns</li>
+            </ol>
+            <ul>
+              <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1315143661&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
             </ul>
           </li>
         </ul>
@@ -224,44 +292,8 @@ li {
           </li>
         </ul>
       </div>
-      <div class="album-container">
-        <ul>
-          <strong>Arise Mexzmiriah ST</strong> <br>
-          <li>Release Date: Jun 27, 2022</li>
-          <br>
-          <li><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/AriseMexzmiriahsit_small.jpg" alt="Arise Mexzmiriah ST" width="150" height="150"></li>
-          <br>
-          <li>Tracklist:
-            <ol>
-              <li>Her Desire</li>
-              <li>BDSM and Laserguns</li>
-            </ol>
-            <ul>
-              <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1315143661&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-			
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <div class="album-container">
-        <ul>
-          <strong>Retrofizia - Beginning Theme</strong> <br>
-          <li>Release Date: Aug 09, 2020 </li>
-          <br>
-          <li><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/retrofiziaCoverSmall.jpg" alt="Arknia OST" width="150" height="150"></li>
-          <br>
-          <li>Tracklist:
-            <ol>
-              <li>Retrofizia</li>
-            </ol>
-            <ul>
-              <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1315116559&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="horizontal-menu"> <br>
+</div>
+<div class="horizontal-menu"> <br>
       <ul>
        <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/dwcin9rin4.html">Dwcin9 Rin4</a></li>
         <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/eps.html">EPs</a></li>
