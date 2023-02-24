@@ -114,7 +114,7 @@ footer {
     display: inline-block;
 }
 #twitter-timeline {
-    padding-top: 300px;
+    padding-top: 320px;
     position: fixed;
     top: 0;
     left: 0;
@@ -126,16 +126,16 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+	padding-left: 1%;
 }
-.twitter-container {
-    padding-left: 2%;
+.twitter-container {    
     max-width: 70%;
     margin-left: 200px; /* adjust this value as needed */
     text-align: left;
     display: inline-block;
 }
 #qr-code {
-    padding-top: 300px;
+    padding-top: 1%;
     position: fixed;
     top: 0;
     right: 0;
@@ -146,13 +146,13 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-right: 10px; /* add this line */
+    padding-right: 1%; /* add this line */
 }
 .qr-container {
-    max-width: 70%;
-    margin-left: 200px; /* adjust this value as needed */
+    max-width: 30px;
     text-align: right;
-    display: inline-block;
+    display: block;
+	
 }
 .videocontainer {
     align-content: center;
@@ -160,17 +160,33 @@ footer {
     display: flex;
     justify-content: center;
 }
+	#discord {
+  padding-top: 455px;
+  position: fixed;
+  top: 0;
+  right: 0; /* changed from right: 0 */
+  bottom: 0;
+  width: 14%;
+  list-style: none;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 2%; /* add this line */
+}
 </style>
 	<body>
 <div  class="twittercontainer">
   <div id="twitter-timeline"> <a class="twitter-timeline" data-width="500" data-height="600" data-theme="light" href="https://twitter.com/NorowaretaGemu">Tweets by NorowaretaGemu</a> </div>
 </div>
-<div  class="qr-container">
-  <div id="qr-code"> <a href="https://linktr.ee/cursedentertainment"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/CURSED QR.jpg" alt="QR Code" width="150" height="150"> </a> </div>
-</div>
+		<div id="discord">
+	  <iframe src="https://discord.com/widget?id=1026143766010138714&theme=dark" width="300" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></div>
 <div  class="content">
   <div  class="header_container">
     <div  class="header_img"> <img src="spr_cursedLogo.png" alt="CursedEntertainment Logo" width="277" height="149"> </div>
+	  <div  class="qr-container">
+  <div id="qr-code"> <a href="https://linktr.ee/cursedentertainment"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/CURSED QR.jpg" alt="QR Code" width="150" height="150"></a></div>	
+</div>	
     <div class="horizontal-menu"> <br>
       <ul>
         <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/games.html">Games</a></li>
