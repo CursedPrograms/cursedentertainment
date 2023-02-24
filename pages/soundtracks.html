@@ -6,15 +6,17 @@
 </head>
 
 <style>
-ul {
-    list-style: none;
-}
 body {
     background-color: #007ab7;
     color: #fff;
     display: block;
     align-items: center;
     padding-bottom: 2%;
+}
+ul {
+    list-style: none;
+    align-items: center;
+    text-align: left;
 }
 footer {
     text-align: center;
@@ -23,7 +25,7 @@ strong {
     text-align: center;
 }
 iframe {
-   margin-top: 20px;
+    margin-top: 20px;
     margin-bottom: 20px;
     border: 0;
     display: flex;
@@ -34,11 +36,12 @@ iframe {
 }
 a {
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
+    padding-bottom: 3px;
 }
 #container {
-    padding-top: 260px;
+    padding-top: 240px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,13 +75,21 @@ h1 {
 }
 .horizontal-menu {
     list-style: none;
-    padding-right: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 6px;
 }
 .horizontal-menu li {
     display: inline-block;
+    padding-right: 2px;
+    padding-bottom: 4px;
+    padding-left: 2px;
+    padding-top: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 16px;
 }
 .horizontal-menu li a {
     display: inherit;
@@ -96,7 +107,7 @@ h1 {
     height: 10px;
 }
 .content {
-    max-width: 80%;
+    max-width: 70%;
     margin: 0 auto;
     text-align: center;
     align-items: center;
@@ -108,7 +119,7 @@ h1 {
     height: 100%;
 }
 .horizontal-menu li a:hover {
-     background-color: #f088e9;
+    background-color: #f088e9;
     border: thin solid #FFFFFF;
     border-radius: 8px / 4px;
     opacity: 1;
@@ -127,7 +138,7 @@ h1 {
 }
 .icon-container {
     padding: 10px;
-    display: inline-grid;
+    display: flex;
     justify-content: center;
     align-items: center;
     border-top: thin outset #FFFFFF;
@@ -136,12 +147,6 @@ h1 {
     -moz-box-sizing: content-box;
     box-sizing: content-box;
     width: 100%;
-}
-.icon-container {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .icon-container a {
     text-indent: 110%; /* Set the text-indent to a value larger than the container width */
@@ -156,38 +161,46 @@ h1 {
     display: block; /* Remove any default padding and margin */
 }
 .album-container {
-   text-align: center;
+    text-align: left;
     flex-basis: calc(33.33% - 40px);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     min-height: 40%;
     max-width: 2000px;
     border: thin solid #FFFFFF;
     border-radius: 41px / 30px;
     background-color: #FFFFFF;
     color: #FFFFFF;
-    background-image: -webkit-linear-gradient(270deg,rgba(0,122,183,1.00) 0%,rgba(254,70,231,1.00) 100%);
-    background-image: -moz-linear-gradient(270deg,rgba(0,122,183,1.00) 0%,rgba(254,70,231,1.00) 100%);
-    background-image: -o-linear-gradient(270deg,rgba(0,122,183,1.00) 0%,rgba(254,70,231,1.00) 100%);
-    background-image: linear-gradient(180deg,rgba(0,122,183,1.00) 0%,rgba(254,70,231,1.00) 100%);
+    background-image: -webkit-linear-gradient(270deg, rgba(0,122,183,1.00) 0%, rgba(254,70,231,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg, rgba(0,122,183,1.00) 0%, rgba(254,70,231,1.00) 100%);
+    background-image: -o-linear-gradient(270deg, rgba(0,122,183,1.00) 0%, rgba(254,70,231,1.00) 100%);
+    background-image: linear-gradient(180deg, rgba(0,122,183,1.00) 0%, rgba(254,70,231,1.00) 100%);
     -webkit-box-shadow: 6px 7px 6px 3px #00547E;
     box-shadow: 6px 7px 6px 3px #00547E;
+    padding-top: 50px;
 }
 .albums-container {
-   justify-content: flex-start;
+    justify-content: flex-start;
     align-items: flex-start;
     display: flex;
-    align-content: flex-start;
+    align-content: center;
     flex-wrap: wrap;
     text-align: center;
     gap: 2%;
-	padding-bottom: 1%;
+    padding-bottom: 1%;
 }
 li {
     align-content: center;
-    text-align: center;
+    text-align: left;
+}
+.albumcover {
+    min-width: 100%;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 </style>
 
@@ -209,18 +222,20 @@ li {
   <div id="container">
     <div class="horizontal-menu"> <br>
       <ul>
-         <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/dwcin9rin4.html">Dwcin9 Rin4</a></li>
+        <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/dwcin9rin4.html">Dwcin9 Rin4</a></li>
         <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/eps.html">EPs</a></li>
         <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/paxzifizia.html">Paxzifizia</a></li>
       </ul>
     </div>
     <div class="albums-container">
       <div class="album-container">
+        <h3> <strong>Retrofizia:<br>
+          Beginning Theme</strong> <br>
+        </h3>
         <ul>
-          <strong>Retrofizia - Beginning Theme</strong> <br>
           <li>Release Date: Aug 09, 2020 </li>
           <br>
-          <li><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/retrofiziaCoverSmall.jpg" alt="Arknia OST" width="150" height="150"></li>
+          <div class="albumcover"><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/retrofiziaCoverSmall.jpg" alt="Arknia OST" width="150" height="150"></div>
           <br>
           <li>Tracklist:
             <ol>
@@ -233,11 +248,13 @@ li {
         </ul>
       </div>
       <div class="album-container">
+        <h3> <strong>Nystylla:<br>
+          Girls Of Maluxzka OST</strong> <br>
+        </h3>
         <ul>
-          <strong>Nystylla - Girls Of Maluxzka OST</strong> <br>
           <li>Release Date: Jul 11, 2021 (2017)</li>
           <br>
-          <li><img src="NGoM-OST_Cover.jpg" alt="NGOM-OST" width="150" height="150"></li>
+          <div class="albumcover"><img src="NGoM-OST_Cover.jpg" alt="NGOM-OST" width="150" height="150"></div>
           <br>
           <li>Tracklist:
             <ol>
@@ -256,10 +273,11 @@ li {
       </div>
       <div class="album-container">
         <ul>
-          <strong>Arise Mexzmiriah ST</strong> <br>
+          <h3> <strong>Arise Mexzmiriah ST</strong> <br>
+          </h3>
           <li>Release Date: Jun 27, 2022</li>
           <br>
-          <li><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/AriseMexzmiriahsit_small.jpg" alt="Arise Mexzmiriah ST" width="150" height="150"></li>
+          <div class="albumcover"><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/AriseMexzmiriahsit_small.jpg" alt="Arise Mexzmiriah ST" width="150" height="150"></div>
           <br>
           <li>Tracklist:
             <ol>
@@ -273,11 +291,12 @@ li {
         </ul>
       </div>
       <div class="album-container">
+        <h3> <strong>Metasoma: Araknia OST</strong> <br>
+        </h3>
         <ul>
-          <strong>Metasoma: Araknia OST</strong> <br>
           <li>Release Date: Aug 22, 2022</li>
           <br>
-          <li><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/metasoma_small.jpg" alt="Arknia OST" width="150" height="150"></li>
+          <div class="albumcover"><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/metasoma_small.jpg" alt="Arknia OST" width="150" height="150"></div>
           <br>
           <li>Tracklist:
             <ol>
@@ -292,10 +311,10 @@ li {
           </li>
         </ul>
       </div>
-</div>
-<div class="horizontal-menu"> <br>
+    </div>
+    <div class="horizontal-menu"> <br>
       <ul>
-       <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/dwcin9rin4.html">Dwcin9 Rin4</a></li>
+        <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/dwcin9rin4.html">Dwcin9 Rin4</a></li>
         <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/eps.html">EPs</a></li>
         <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/paxzifizia.html">Paxzifizia</a></li>
       </ul>
