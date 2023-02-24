@@ -15,7 +15,8 @@ body {
 }
 ul {
     list-style: none;
-    align-items: left;
+    align-items: center;
+    text-align: left;
 }
 footer {
     text-align: center;
@@ -40,7 +41,7 @@ a {
     padding-bottom: 3px;
 }
 #container {
-    padding-top: 260px;
+    padding-top: 240px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,12 +75,10 @@ h1 {
 }
 .horizontal-menu {
     list-style: none;
-    padding-right: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 4px;
-    padding-left: 4px;
+    padding: 6px;
 }
 .horizontal-menu li {
     display: inline-block;
@@ -108,7 +107,7 @@ h1 {
     height: 10px;
 }
 .content {
-    max-width: 80%;
+    max-width: 70%;
     margin: 0 auto;
     text-align: center;
     align-items: center;
@@ -162,12 +161,12 @@ h1 {
     display: block; /* Remove any default padding and margin */
 }
 .album-container {
-    text-align: center;
+    text-align: left;
     flex-basis: calc(33.33% - 40px);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     min-height: 40%;
     max-width: 2000px;
     border: thin solid #FFFFFF;
@@ -180,12 +179,13 @@ h1 {
     background-image: linear-gradient(180deg, rgba(0,122,183,1.00) 0%, rgba(254,70,231,1.00) 100%);
     -webkit-box-shadow: 6px 7px 6px 3px #00547E;
     box-shadow: 6px 7px 6px 3px #00547E;
+    padding-top: 50px;
 }
 .albums-container {
     justify-content: flex-start;
     align-items: flex-start;
     display: flex;
-    align-content: flex-start;
+    align-content: center;
     flex-wrap: wrap;
     text-align: center;
     gap: 2%;
@@ -193,7 +193,14 @@ h1 {
 }
 li {
     align-content: center;
-    text-align: center;
+    text-align: left;
+}
+.albumcover {
+    min-width: 100%;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 </style>
 <body>
@@ -219,34 +226,35 @@ li {
         <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/soundtracks.html">Soundtracks</a></li>
       </ul>
     </div>
-    <div style="display: flex; justify-content: center; margin-top: 20px;">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/h0zM_3-elMI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div style="display: flex; justify-content: center; padding-top: 2%; padding-right: 2%; padding-left: 2%; padding-bottom: 2%;">
+      <iframe width="560px" height="315px" src="https://www.youtube.com/embed/h0zM_3-elMI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="albums-container">
       <div class="album-container">
+        <h3><strong>Inner Denoms</strong> </h3>
         <ul>
-          <strong>Inner Denoms</strong> <br>
           <li>Release Date: 28 August 2022</li>
           <br>
-          <li><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/innerDemonsSmall.jpg" alt="Inner Demons" width="150" height="150"></li>
+          <div class="albumcover"><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/innerDemonsSmall.jpg" alt="Inner Demons" width="150" height="150"> </div>
           <br>
           <li>Tracklist:
             <ol>
               <li>Rage</li>
               <li>Humanity</li>
             </ol>
+            <ul>
+              <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1490221711&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+            </ul>
           </li>
-        </ul>
-        <ul>
-          <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1490221711&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
         </ul>
       </div>
       <div class="album-container">
+        <h3><strong> Maltreatment of Corruption</strong> <br>
+        </h3>
         <ul>
-          <strong> Maltreatment of Corruption</strong> <br>
           <li>Release Date: 26 October 2022</li>
           <br>
-          <li><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/MoCsmall.jpg" alt="Maltreatment of Corruption" width="150" height="150"></li>
+          <div class="albumcover"><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/MoCsmall.jpg" alt="Maltreatment of Corruption" width="150" height="150"></div>
           <br>
           <li>Tracklist:
             <ol>
@@ -259,11 +267,12 @@ li {
         </ul>
       </div>
       <div class="album-container">
+        <h3><strong>Seek Asylum</strong> <br>
+        </h3>
         <ul>
-          <strong>Seek Asylum</strong> <br>
           <li>Release Date: 23 October 2022</li>
           <br>
-          <li><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/seekAsylumSmall.jpg" alt="Seek Asylum" width="150" height="150"></li>
+          <div class="albumcover"><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/seekAsylumSmall.jpg" alt="Seek Asylum" width="150" height="150"></div>
           <br>
           <li>Tracklist:
             <ol>
@@ -276,11 +285,12 @@ li {
         </ul>
       </div>
       <div class="album-container">
+        <h3><strong>Crimson &amp; Clover (Cover)</strong> <br>
+        </h3>
         <ul>
-          <strong>Crimson &amp; Clover (Cover)</strong> <br>
           <li>Release Date: 12 November 2022</li>
           <br>
-          <li><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/crimsoncloversmall.jpg" alt="Crimson & Clover" width="150" height="150"></li>
+          <div class="albumcover"><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/crimsoncloversmall.jpg" alt="Crimson & Clover" width="150" height="150"></div>
           <br>
           <li>Tracklist:
             <ol>
@@ -293,11 +303,12 @@ li {
         </ul>
       </div>
       <div class="album-container">
+        <h3><strong>FSL</strong> <br>
+        </h3>
         <ul>
-          <strong>FSL</strong> <br>
           <li>Release Date: 19 November 2022</li>
           <br>
-          <li><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/FSLsmall.jpg" alt="FSL" width="150" height="150"></li>
+          <div class="albumcover"><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/FSLsmall.jpg" alt="FSL" width="150" height="150"></div>
           <br>
           <li>Tracklist:
             <ol>
@@ -310,11 +321,12 @@ li {
         </ul>
       </div>
       <div class="album-container">
+        <h3><strong> Trash Town</strong> <br>
+        </h3>
         <ul>
-          <strong> Trash Town</strong> <br>
           <li>Release Date: 20 November 2022</li>
           <br>
-          <li><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/trashtownSmall.jpg" alt="Trash Town" width="150" height="150"></li>
+          <div class="albumcover"><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/trashtownSmall.jpg" alt="Trash Town" width="150" height="150"></div>
           <br>
           <li>Tracklist:
             <ol>
@@ -327,11 +339,12 @@ li {
         </ul>
       </div>
       <div class="album-container">
+        <h3><strong>Just Fuck You</strong> <br>
+        </h3>
         <ul>
-          <strong>Just Fuck You</strong> <br>
           <li>Release Date: 23 November 2022</li>
           <br>
-          <li><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/JFYsmall.jpg" alt="Just F*ck You" width="150" height="150"></li>
+          <div class="albumcover"><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/JFYsmall.jpg" alt="Just F*ck You" width="150" height="150"></div>
           <br>
           <li>Tracklist:
             <ol>
@@ -353,11 +366,12 @@ li {
         </ul>
       </div>
       <div class="album-container">
+        <h3><strong>Bear Witness</strong> <br>
+        </h3>
         <ul>
-          <strong>Bear Witness</strong> <br>
           <li>Release Date: 5 December 2022</li>
           <br>
-          <li><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/BearWitness_small.jpg" alt="Bear Witness" width="150" height="150"></li>
+          <div class="albumcover"><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/BearWitness_small.jpg" alt="Bear Witness" width="150" height="150"></div>
           <br>
           <li>Tracklist:
             <ol>
