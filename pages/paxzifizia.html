@@ -6,15 +6,17 @@
 </head>
 
 <style>
-ul {
-    list-style: none;
-}
 body {
     background-color: #007ab7;
     color: #fff;
     display: block;
     align-items: center;
     padding-bottom: 2%;
+}
+ul {
+    list-style: none;
+    align-items: center;
+    text-align: left;
 }
 footer {
     text-align: center;
@@ -23,7 +25,7 @@ strong {
     text-align: center;
 }
 iframe {
-   margin-top: 20px;
+    margin-top: 20px;
     margin-bottom: 20px;
     border: 0;
     display: flex;
@@ -34,11 +36,12 @@ iframe {
 }
 a {
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
+    padding-bottom: 3px;
 }
 #container {
-    padding-top: 260px;
+    padding-top: 240px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,17 +74,25 @@ h1 {
     margin: auto;
 }
 .horizontal-menu {
-      list-style: none;
-    padding-right: 25px;
+    list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 6px;
 }
 .horizontal-menu li {
     display: inline-block;
+    padding-right: 2px;
+    padding-bottom: 4px;
+    padding-left: 2px;
+    padding-top: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 16px;
 }
 .horizontal-menu li a {
-   display: inherit;
+    display: inherit;
     color: white;
     text-align: center;
     padding-top: 15px;
@@ -96,7 +107,7 @@ h1 {
     height: 10px;
 }
 .content {
-    max-width: 80%;
+    max-width: 70%;
     margin: 0 auto;
     text-align: center;
     align-items: center;
@@ -127,7 +138,7 @@ h1 {
 }
 .icon-container {
     padding: 10px;
-    display: inline-grid;
+    display: flex;
     justify-content: center;
     align-items: center;
     border-top: thin outset #FFFFFF;
@@ -136,12 +147,6 @@ h1 {
     -moz-box-sizing: content-box;
     box-sizing: content-box;
     width: 100%;
-}
-.icon-container {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .icon-container a {
     text-indent: 110%; /* Set the text-indent to a value larger than the container width */
@@ -156,38 +161,46 @@ h1 {
     display: block; /* Remove any default padding and margin */
 }
 .album-container {
-   text-align: center;
+    text-align: left;
     flex-basis: calc(33.33% - 40px);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     min-height: 40%;
     max-width: 2000px;
     border: thin solid #FFFFFF;
     border-radius: 41px / 30px;
     background-color: #FFFFFF;
     color: #FFFFFF;
-    background-image: -webkit-linear-gradient(270deg,rgba(0,122,183,1.00) 0%,rgba(254,70,231,1.00) 100%);
-    background-image: -moz-linear-gradient(270deg,rgba(0,122,183,1.00) 0%,rgba(254,70,231,1.00) 100%);
-    background-image: -o-linear-gradient(270deg,rgba(0,122,183,1.00) 0%,rgba(254,70,231,1.00) 100%);
-    background-image: linear-gradient(180deg,rgba(0,122,183,1.00) 0%,rgba(254,70,231,1.00) 100%);
+    background-image: -webkit-linear-gradient(270deg, rgba(0,122,183,1.00) 0%, rgba(254,70,231,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg, rgba(0,122,183,1.00) 0%, rgba(254,70,231,1.00) 100%);
+    background-image: -o-linear-gradient(270deg, rgba(0,122,183,1.00) 0%, rgba(254,70,231,1.00) 100%);
+    background-image: linear-gradient(180deg, rgba(0,122,183,1.00) 0%, rgba(254,70,231,1.00) 100%);
     -webkit-box-shadow: 6px 7px 6px 3px #00547E;
     box-shadow: 6px 7px 6px 3px #00547E;
+    padding-top: 50px;
 }
 .albums-container {
-   justify-content: flex-start;
+    justify-content: flex-start;
     align-items: flex-start;
     display: flex;
-    align-content: flex-start;
+    align-content: center;
     flex-wrap: wrap;
     text-align: center;
     gap: 2%;
-	padding-bottom: 1%;
+    padding-bottom: 1%;
 }
 li {
     align-content: center;
-    text-align: center;
+    text-align: left;
+}
+.albumcover {
+    min-width: 100%;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 </style>
 <body>
@@ -215,11 +228,12 @@ li {
     </div>
     <div class="albums-container">
       <div class="album-container">
+        <h3> <strong>Paxzifizia</strong> <br>
+        </h3>
         <ul>
-          <strong>Paxzifizia</strong> <br>
           <li>Release Date: 1 December 2017</li>
           <br>
-          <li><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/paxzifizia-small.jpg" alt="Paxzifizia" width="150" height="150"></li>
+          <div class="albumcover"><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/paxzifizia-small.jpg" alt="Paxzifizia" width="150" height="150"></div>
           <br>
           <li>Tracklist:
             <ol>
@@ -240,34 +254,38 @@ li {
               <li>Myxztryxz Of Artxz</li>
             </ol>
             <ul>
-              <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1476415717&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>				
+              <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1476415717&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
             </ul>
           </li>
         </ul>
       </div>
       <div class="album-container">
+        <h3><strong>LaLova's Song</strong></h3>
+        <br>
         <ul>
-          <strong>LaLova's Song</strong> <br>
           <li>Release Date: 7 August, 2022</li>
           <br>
-          <li><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/lalovasSong_small.jpg" alt="Arknia OST" width="150" height="150"></li>
+          <div class="albumcover"><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/lalovasSong_small.jpg" alt="Arknia OST" width="150" height="150"></div>
           <br>
           <li>Tracklist:
             <ol>
               <li>LaLova's Song</li>
             </ol>
             <ul>
-              <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1319576614&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>				
+              <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1319576614&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
             </ul>
           </li>
         </ul>
       </div>
       <div class="album-container">
         <ul>
-          <strong>Beyond Dark River</strong> <br>
+          <h3>
+          <strong>Beyond Dark River</strong>
+          <h3>
+          <br>
           <li>Release Date: 23 October 2022</li>
           <br>
-          <li><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/beyondDarkRiver_small.jpg" alt="Beyond Dark River" width="150" height="150"></li>
+          <div class="albumcover"><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/beyondDarkRiver_small.jpg" alt="Beyond Dark River" width="150" height="150"></div>
           <br>
           <li>Tracklist:
             <ol>
@@ -278,7 +296,7 @@ li {
             </ul>
           </li>
         </ul>
-      </div>     
+      </div>
     </div>
     <div class="horizontal-menu"> <br>
       <ul>
