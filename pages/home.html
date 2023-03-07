@@ -4,7 +4,42 @@
 <meta charset="utf-8">
 <title>Home</title>
 <link rel="icon" type="image/png" href="/cursedFavicon.png">
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<script src="https://cdn.jsdelivr.net/npm/@google/model-viewer@1.12.0/dist/model-viewer.min.js">
+		// Check if the user is accessing from a PC or Android device
+		var isAndroid = /(android)/i.test(navigator.userAgent);
+		var isPC = !isAndroid && /(windows|mac os|linux)/i.test(navigator.userAgent);
+
+		// Use the results to modify your HTML or CSS accordingly
+		if (isAndroid) {
+			// Check if the user's device is ARCore compatible
+			if ('xr' in navigator && 'supportsSession' in navigator.xr) {
+				navigator.xr.supportsSession({optionalFeatures: ['ar'], requiredFeatures: []})
+					.then(() => {
+						// Code to run if the device is ARCore compatible
+						var imgElement = document.getElementById("myImage");
+						imgElement.src = "image1.jpg";
+						imgElement.alt = "AR Advert";
+					})
+					.catch(() => {
+						// Code to run if the device is not ARCore compatible
+					var imgElement = document.getElementById("myImage");
+						imgElement.src = "image3.jpg";
+						imgElement.alt = "Android Advert";
+					});
+			} else {
+				// Code to run if the device does not support WebXR
+				var imgElement = document.getElementById("myImage");
+						imgElement.src = "image3.jpg";
+						imgElement.alt = "Android Advert";
+			}
+		} else if (isPC) {
+			// Code to modify your HTML or CSS for PC users
+			var imgElement = document.getElementById("myImage");
+			imgElement.src = "image4.jpg";
+			imgElement.alt = "PC Advert";
+		}
+	</script>
 </head>
 
 <style>
@@ -28,6 +63,10 @@ footer {
     font-family: Futura, sans-serif;
     font-weight: lighter;
     text-align: center;
+}
+.advert-container {
+    max-height: 230px;
+    min-width: 100%;
 }
 .header_container {
     padding-top: 4%;
@@ -194,6 +233,7 @@ footer {
 }
 </style>
 <body>
+<div  class=".advert-container"> <img id="myImage" src="default.jpg" alt="Default Image"></div>
 <div  class="twittercontainer">
   <div id="twitter-timeline"> <a class="twitter-timeline" data-width="500" data-height="600" data-theme="light" href="https://twitter.com/NorowaretaGemu">Tweets by NorowaretaGemu</a> </div>
 </div>
