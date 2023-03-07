@@ -46,7 +46,6 @@ function handleComplete(evt,comp) {
 	}
 	exportRoot = new lib.CursedAnimeWeb();
 	stage = new lib.Stage(canvas);	
-	//Registers the "tick" event listener.
 	fnStartAnimation = function() {
 		stage.addChild(exportRoot);
 		createjs.Ticker.framerate = lib.properties.fps;
