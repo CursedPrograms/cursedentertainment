@@ -37,7 +37,6 @@ function handleFileLoad(evt, comp) {
 	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
 }
 function handleComplete(evt,comp) {
-	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
 	var lib=comp.getLibrary();
 	var ss=comp.getSpriteSheet();
 	var queue = evt.target;
@@ -52,8 +51,7 @@ function handleComplete(evt,comp) {
 		stage.addChild(exportRoot);
 		createjs.Ticker.framerate = lib.properties.fps;
 		createjs.Ticker.addEventListener("tick", stage);
-	}	    
-	//Code to support hidpi screens and responsive scaling.
+	}
 	AdobeAn.makeResponsive(true,'both',true,2,[canvas,anim_container,dom_overlay_container]);	
 	AdobeAn.compositionLoaded(lib.properties.id);
 	fnStartAnimation();
