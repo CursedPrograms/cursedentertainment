@@ -161,23 +161,20 @@ h1 {
     box-sizing: content-box;
     width: 100%;
 }
-.icon-container {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .icon-container a {
-    text-indent: 110%; /* Set the text-indent to a value larger than the container width */
-    white-space: nowrap; /* Prevent the text from wrapping */
-    overflow: hidden; /* Hide any overflow */
+    text-indent: 110%;
+    white-space: nowrap;
+    overflow: hidden; 
 }
 .icon-container img {
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    display: block; /* Remove any default padding and margin */
+    display: block;
+}
+		.icon-container img:hover {
+    transform: scale(0.7); 
 }
 .album-container {
     text-align: center;
