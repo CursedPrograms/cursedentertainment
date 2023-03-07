@@ -5,35 +5,15 @@
 <title>Home</title>
 <link rel="icon" type="image/png" href="/cursedFavicon.png">
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-<script src="https://cdn.jsdelivr.net/npm/@google/model-viewer@1.12.0/dist/model-viewer.min.js">
-		var isAndroid = /(android)/i.test(navigator.userAgent);
-		var isPC = !isAndroid && /(windows|mac os|linux)/i.test(navigator.userAgent);
-		if (isAndroid) {
-			if ('xr' in navigator && 'supportsSession' in navigator.xr) {
-				navigator.xr.supportsSession({optionalFeatures: ['ar'], requiredFeatures: []})
-					.then(() => {
-						var imgElement = document.getElementById("myImage");
-						imgElement.src = "image1.jpg";
-						imgElement.alt = "AR Advert";
-					})
-					.catch(() => {
-					var imgElement = document.getElementById("myImage");
-						imgElement.src = "image3.jpg";
-						imgElement.alt = "Android Advert";
-					});
-			} else {				
-				var imgElement = document.getElementById("myImage");
-						imgElement.src = "image3.jpg";
-						imgElement.alt = "Android Advert";
-			}
-		} else if (isPC) {
-			var imgElement = document.getElementById("myImage");
-			imgElement.src = "image4.jpg";
-			imgElement.alt = "PC Advert";
-		}
-	</script>
+<script src="https://cdn.jsdelivr.net/npm/@google/model-viewer@1.12.0/dist/model-viewer.min.js"></script>
 </head>
+
 <style>
+@media only screen and (max-width: 600px) {
+#twitter-timeline, #discord {
+    display: none;
+}
+}
 body {
     max-width: 100%;
     background-color: #007ab7;
@@ -224,7 +204,36 @@ footer {
 }
 </style>
 <body>
-<div  class=".advert-container"> <img id="myImage" src="default.jpg" alt="Default Image"></div>
+	<div  class=".advert-container">
+<script>
+		var isAndroid = /(android)/i.test(navigator.userAgent);
+		var isPC = !isAndroid && /(windows|mac os|linux)/i.test(navigator.userAgent);
+		if (isAndroid) {
+			if ('xr' in navigator && 'supportsSession' in navigator.xr) {
+				navigator.xr.supportsSession({optionalFeatures: ['ar'], requiredFeatures: []})
+					.then(() => {
+						var imgElement = document.getElementById("myImage");
+						imgElement.src = "image1.jpg";
+						imgElement.alt = "AR Advert";
+					})
+					.catch(() => {
+						var imgElement = document.getElementById("myImage");
+						imgElement.src = "image3.jpg";
+						imgElement.alt = "Android Advert";
+					});
+			} else {				
+				var imgElement = document.getElementById("myImage");
+				imgElement.src = "image3.jpg";
+				imgElement.alt = "Android Advert";
+			}
+		} else if (isPC) {
+			var imgElement = document.getElementById("myImage");
+			imgElement.src = "image4.jpg";
+			imgElement.alt = "PC Advert";
+		}
+	</script>
+		<img id="myImage" src="placeholder.jpg" alt="Advert"> 
+</div>
 <div  class="twittercontainer">
   <div id="twitter-timeline"> <a class="twitter-timeline" data-width="500" data-height="600" data-theme="light" href="https://twitter.com/NorowaretaGemu">Tweets by NorowaretaGemu</a> </div>
 </div>
