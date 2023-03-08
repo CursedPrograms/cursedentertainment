@@ -108,6 +108,8 @@ footer {
     box-shadow: 0px 0px 16px 1px #FFFFFF;
 }
 .content {
+    display: inline-block;
+    position: relative;
     max-width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -117,11 +119,13 @@ footer {
     padding-bottom: 2%;
 }
 .icon-container {
+    max-width: 80%;
     padding: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
     border-top: thin outset #FFFFFF;
+    margin: 0 auto;
 }
 .icon-container a {
     text-indent: 110%;
@@ -130,7 +134,7 @@ footer {
     margin-left: 10px;
     margin-right: 10px;
 }
-.icon-container img {	
+.icon-container img {
     display: block;
 }
 .icon-container img:hover {
@@ -140,6 +144,7 @@ footer {
     padding-top: 250px;
     max-width: 60%;
     text-align: left;
+    align-content: center;
     display: inline-block;
 }
 #twitter-timeline {
@@ -204,8 +209,8 @@ footer {
 }
 </style>
 <body>
-	<div  class=".advert-container">
-<script>
+<div  class=".advert-container"> 
+  <script>
 		var isAndroid = /(android)/i.test(navigator.userAgent);
 		var isPC = !isAndroid && /(windows|mac os|linux)/i.test(navigator.userAgent);
 		if (isAndroid) {
@@ -231,9 +236,8 @@ footer {
 			imgElement.src = "image4.jpg";
 			imgElement.alt = "PC Advert";
 		}
-	</script>
-		<img id="myImage" src="placeholder.jpg" alt="Advert"> 
-</div>
+	</script> 
+  <img id="myImage" src="placeholder.jpg" alt="Advert"> </div>
 <div  class="twittercontainer">
   <div id="twitter-timeline"> <a class="twitter-timeline" data-width="500" data-height="600" data-theme="light" href="https://twitter.com/NorowaretaGemu">Tweets by NorowaretaGemu</a> </div>
 </div>
@@ -287,10 +291,10 @@ footer {
     <h2>Vision:</h2>
     <p>Our vision for the future is to continue creating exceptional and unforgettable entertainment experiences, and to push the boundaries of what is possible in video games, books, and music. We will continue to explore new genres and technologies to create unique and engaging experiences for our fans.</p>
     <div class="icon-container"> <a href="https://www.facebook.com/CursedEntertainment/"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/FB_icon-01.png" alt="Facecbook" width="50%" height="50%"> </a> <a href="https://www.instagram.com/cursedentertainment/"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/instagram_icon-01.png" alt="Instagram" width="50%" height="50%"> </a> <a href="https://www.youtube.com/channel/UCmTHNMTp-i1TY-jxMqSjBpw"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/YT_icon-01.png" alt="YouTube" width="50%" height="50%"> </a> <a href="https://www.tiktok.com/@cursedentertainment"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/TT_icon-01-01.png" alt="Tiktok" width="50%" height="50%"> </a> <a href="https://www.behance.net/cursedentertainment"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/behanceIcon-01.png" alt="Behance" width="50%" height="50%"> </a> <a href="https://github.com/CursedPrograms"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/GH_icon-01.png" alt="GitHub" width="50%" height="50%"> </a> <a href="https://cursed-entertainment.itch.io/"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/itch_icon-01.png" alt="itch.io" width="50%" height="50%"> </a> <a href="https://gamejolt.com/@CursedEntertainment"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/GJ_icon-01.png" alt="GameJolt" width="50%" height="50%"> </a> <a href="https://soundcloud.com/cursedentertainment"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/SC_icon-01.png" alt="Behance" width="50%" height="50%"> </a> </div>
-    <br>
-    <footer>呪われた エンターテイメント <br>
-      Cursed Entertainment 2023</footer>
   </div>
 </div>
+<br>
+<footer>呪われた エンターテイメント <br>
+  Cursed Entertainment 2023</footer>
 </body>
 </html>
