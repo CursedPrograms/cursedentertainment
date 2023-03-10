@@ -1,3 +1,92 @@
 @charset "utf-8";
 /* CSS Document */
-
+body {
+  background-color: #007ab7;
+  color: #fff;
+  display: block;
+  align-items: center;
+  padding-bottom: 2%;
+}
+footer {
+  font-family: Futura, sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
+.header_container {
+  padding-top: 4%;
+  max-height: 230px;
+  min-width: 100%;
+  background-color: #007ab7;
+  position: fixed;
+  top: -24px;
+  border-bottom: thin inset #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header_img {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.horizontal-menu {
+    font-family: Futura, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    list-style: none;
+    padding-right: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    font-size: 30px;
+    height: 60px;
+    line-height: 10px;
+}
+.horizontal-menu li {
+    display: inline-block;
+    padding-right: 2px;
+    padding-bottom: 4px;
+    padding-left: 2px;
+    padding-top: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+.horizontal-menu li a {
+    display: inherit;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    background-color: #168FCC;
+    border-radius: 10px / 5px;
+    width: 100px;
+    border: thin solid #FFFFFF;
+    font-size: large;
+    height: 10px;
+}
+.horizontal-menu li a:hover {
+  background-color: #f088e9;
+  border: thin solid #FFFFFF;
+  border-radius: 8px / 4px;
+  opacity: 1;
+  color: #FFFFFF;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  display: inherit;
+  width: 100px;
+  font-size: large;
+  height: 10px;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 16px 1px #FFFFFF;
+  box-shadow: 0px 0px 16px 1px #FFFFFF;
+}
