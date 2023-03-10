@@ -73,6 +73,9 @@ iframe {
   max-width: 550px;
   height: 165px;
 }
+div {
+    margin-bottom: 20px;
+}
 .header_container {
   padding-top: 4%;
   max-height: 230px;
@@ -103,6 +106,10 @@ iframe {
   align-items: center;
   display: flex;
   justify-content: center;
+}
+.advert-container {
+    max-height: 230px;
+    min-width: 100%;
 }
 .horizontal-menu {
   font-family: Futura, sans-serif;
