@@ -13,9 +13,14 @@ footer {
   text-align: center;
 }
 h1 {
-  color: #fff;
+  font-family: Futura, sans-serif;
+  font-weight: bold;
   text-align: center;
-  margin-top: 0;
+}
+h2 {
+  font-family: Futura, sans-serif;
+  font-weight: bold;
+  text-align: center;
 }
 ul {
   font-family: Futura, sans-serif;
@@ -59,14 +64,14 @@ li {
   text-align: left;
 }
 iframe {
-    margin-top: 20px;
-    margin-right: 0;
-    margin-bottom: 20px;
-    border: 0;
-    display: block;
-    width: 100%;
-    max-width: 550px;
-    height: 165px;
+  margin-top: 20px;
+  margin-right: 0;
+  margin-bottom: 20px;
+  border: 0;
+  display: block;
+  width: 100%;
+  max-width: 550px;
+  height: 165px;
 }
 .header_container {
   padding-top: 4%;
@@ -88,9 +93,9 @@ iframe {
   margin: auto;
 }
 .webgl-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .videocontainer {
   min-width: 100%;
