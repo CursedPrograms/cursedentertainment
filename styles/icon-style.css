@@ -24,3 +24,7 @@
 .icon-container img:hover {
   transform: scale(0.9);
 }
+.icon-img {
+  width: 20%;
+  height: 20%;
+}
