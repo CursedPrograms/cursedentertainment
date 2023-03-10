@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+.icon-container {
+  max-width: 80%;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: thin outset #FFFFFF;
+  margin: 0 auto;
+}
+.icon-container a {
+  text-indent: 110%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.icon-container img {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: block;
+}
+.icon-container img:hover {
+  transform: scale(0.9);
+}
