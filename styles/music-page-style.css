@@ -11,13 +11,13 @@ iframe {
   margin-left: -14%;
 }
 .content {
+  padding-top: 240px;
   max-width: 70%;
   margin: 0 auto;
   text-align: center;
   align-items: center;
   display: flex;
   padding-bottom: 2%;
-  display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
@@ -60,6 +60,6 @@ iframe {
   align-items: center;
   display: flex;
   justify-content: center;
-  width:"150px";
-  height:"150px";
+  width: "150px";
+  height: "150px";
 }
