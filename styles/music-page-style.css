@@ -10,18 +10,6 @@ iframe {
   height: 200px;
   margin-left: -14%;
 }
-.content {
-  padding-top: 240px;
-  max-width: 70%;
-  margin: 0 auto;
-  text-align: center;
-  align-items: center;
-  display: flex;
-  padding-bottom: 2%;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
 .album-container {
   text-align: left;
   flex-basis: calc(33.33% - 40px);
