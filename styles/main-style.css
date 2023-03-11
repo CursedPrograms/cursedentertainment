@@ -58,6 +58,7 @@ div {
   display: flex;
   flex-direction: column;
   align-items: center;
+	 z-index: 2;
 }
 .header_img {
   text-align: center;
@@ -83,6 +84,7 @@ div {
   justify-content: center;
   display: flex;
   flex-direction: row;
+	z-index: 1;
 }
 .advert-container {
   max-height: 230px;
