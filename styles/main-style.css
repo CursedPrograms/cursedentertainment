@@ -89,7 +89,7 @@ div {
   flex-direction: row;
 }
 .videocontainer {
-  max-width:  100%;
+  max-width: 100%;
   padding: 5%;
   align-content: center;
   align-items: center;
@@ -97,6 +97,9 @@ div {
   display: flex;
   flex-direction: row;
   z-index: 1;
+}
+.video{
+	padding: 1%;	
 }
 .advert-container {
   max-height: 230px;
