@@ -74,7 +74,7 @@ iframe {
   height: 165px;
 }
 div {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .header_container {
   padding-top: 4%;
@@ -96,9 +96,11 @@ div {
   margin: auto;
 }
 .webgl-container {
+  padding: 5%;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: row;
 }
 .videocontainer {
   min-width: 100%;
@@ -108,8 +110,8 @@ div {
   justify-content: center;
 }
 .advert-container {
-    max-height: 230px;
-    min-width: 100%;
+  max-height: 230px;
+  min-width: 100%;
 }
 .horizontal-menu {
   font-family: Futura, sans-serif;
