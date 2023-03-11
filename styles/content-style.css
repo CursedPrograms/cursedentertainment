@@ -1,17 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-.content {
-  padding-top: 240px;
-  max-width: 80%;
-  margin: 0 auto;
-  text-align: center;
-  align-items: center;
-  display: flex;
-  padding-bottom: 2%;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
+
 #container {
   padding-top: 240px;
   display: flex;
