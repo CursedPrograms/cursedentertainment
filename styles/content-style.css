@@ -6,7 +6,7 @@
   margin: 0 auto;
   text-align: center;
   align-items: center;
-  display: inline-block;
+  display: flex;
   padding-bottom: 2%;
   justify-content: center;
   align-items: center;
