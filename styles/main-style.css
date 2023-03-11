@@ -89,7 +89,7 @@ div {
   flex-direction: row;
 }
 .videocontainer {
-  min-width: 100%;
+  max-width:  100%;
   padding: 5%;
   align-content: center;
   align-items: center;
