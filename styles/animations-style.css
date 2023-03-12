@@ -18,16 +18,34 @@ html {
     background-color: #007ab7;
   }
 }
-
 @keyframes image-fade {
   from {
     opacity: 0%;
   }
   to {
-    opacity: 100%;
+    opacity: 1;
   }
 }
-
+@keyframes scale-fade {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.scale-fade {
+  animation-name: scale-fade;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+.scale-fade4 {
+  animation-name: scale-fade;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
 .finite-blink-div {
   animation-name: blink;
   animation-iteration-count: 3;
