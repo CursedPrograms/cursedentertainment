@@ -1,11 +1,40 @@
 @charset "utf-8";
+
+.box-container{
+	align-content: center;
+}
+
+.box1{
+	background-color: #007ab7;
+}
+
+.box2{
+	background-color: #f088e9;
+}
+
+.box3{
+	background-color: #007ab7;
+}
+
+.box4{
+	background-color: #f088e9;
+}
+
+.box5{
+	background-color: #007ab7;
+}
+
+.box6{
+	background-color: #f088e9;
+}
+
 .scoll-container{
 	width: 20rem;
 	height: 20rem;
 	background: white;
 	display: flex;
 	overflow-x: scroll;
-	scroll-snap-align: x mandatory;
+	scroll-snap-type: x proximity;
 }
 
 .scoll-container div{
@@ -15,4 +44,6 @@
 	align-items: center;
 	font-size: 10rem;
 	color: white;
+	scroll-snap-align: centre;
 }
+
