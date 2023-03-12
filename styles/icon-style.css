@@ -24,6 +24,9 @@
   overflow: hidden;
 }
 .icon-container img {
+  animation-name: icon-fade;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -34,9 +37,6 @@
   transform: scale(0.9);
 }
 .icon-img {
-  animation-name: icon-fade;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
   width: 25%;
   height: 25%;
 }
