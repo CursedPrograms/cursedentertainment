@@ -18,6 +18,16 @@ html {
     background-color: #007ab7;
   }
 }
+
+@keyframes image-fade {
+  from {
+    opacity: 0%;
+  }
+  to {
+    background-color: 100%;
+  }
+}
+
 .finite-blink-div {
   animation-name: blink;
   animation-iteration-count: 3;
@@ -28,7 +38,7 @@ html {
   animation-iteration-count: infinite;
 }
 .fade-div {
-  animation-name: fade;
+  animation-name: image-fade;
   animation-iteration-count: 1;
   animation-duration: 4s;
 }
