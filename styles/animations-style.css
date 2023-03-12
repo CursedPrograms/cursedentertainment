@@ -36,6 +36,16 @@ html {
     opacity: 1;
   }
 }
+@keyframes scale-fade2 {
+  from {
+    transform: scale(5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
 .scale-fade {
   animation-name: scale-fade;
   animation-duration: 2s;
@@ -44,6 +54,11 @@ html {
 .scale-fade4 {
   animation-name: scale-fade;
   animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+.scale-fade2 {
+  animation-name: scale-fade2;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
 }
 .finite-blink-div {
