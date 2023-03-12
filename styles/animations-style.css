@@ -1,0 +1,60 @@
+@charset "utf-8";
+html {
+  animation-delay: 2s;
+}
+@keyframes blink {
+  0% {
+    background-color: #f088e9;
+  }
+  100% {
+    background-color: #007ab7;
+  }
+}
+@keyframes fade {
+  from {
+    background-color: #f088e9;
+  }
+  to {
+    background-color: #007ab7;
+  }
+}
+.finite-blink-div {
+  background-color: black;
+  animation-name: blink;
+  animation-iteration-count: 3;
+}
+.blink-div {
+  background-color: black;
+  animation-name: blink;
+  animation-duration: 3;
+  animation-iteration-count: infinite;
+}
+.fade-div {
+  background-color: black;
+  animation-name: fade;
+  animation-duration: 4s;
+}
+.fade-reverse-div {
+  background-color: black;
+  animation-name: fade;
+  animation-duration: 4s;
+  animation-direction: reverse;
+}
+.fade-alternate-div {
+  background-color: black;
+  animation-name: fade;
+  animation-duration: 4s;
+  animation-direction: reverse;
+}
+.fade-alternate-reverse-div {
+  background-color: black;
+  animation-name: fade;
+  animation-duration: 4s;
+  animation-direction: alternate-reverse;
+}
+#div-linear {animation-timing-function: linear;}
+#div-ease {animation-timing-function: ease;}
+#div-ease-in {animation-timing-function: ease-in;}
+#div-ease-out {animation-timing-function: ease-out;}
+#div-ease-in-out {animation-timing-function: ease-in-out;}
+
