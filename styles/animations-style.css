@@ -40,6 +40,11 @@ html {
 .img-fade-div {
   animation-name: image-fade;
   animation-iteration-count: 1;
+  animation-duration: 1s;
+}
+.img-fade-div-4 {
+  animation-name: image-fade;
+  animation-iteration-count: 1;
   animation-duration: 4s;
 }
 .fade-reverse-div {
