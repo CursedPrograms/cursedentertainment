@@ -78,6 +78,23 @@ div {
   box-sizing: border-box;
   margin-bottom: 16px;
 }
+
+.online-buttons li a {
+  display: inherit;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  background-color: #168FCC;
+  border-radius: 10px / 5px;
+  width: 300px;
+  border: thin solid #FFFFFF;
+  font-size: medium;
+  height: 10px;
+}
+
 .header_container {
   padding-top: 4%;
   max-height: 230px;
