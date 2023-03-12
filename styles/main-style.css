@@ -1,15 +1,22 @@
 @charset "utf-8";
-
-html{
-	scroll-behavior: smooth;
+@keyframes logo-anim {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
-
+html {
+  scroll-behavior: smooth;
+}
 * {
   font-family: Futura, sans-serif;
   font-weight: lighter;
   letter-spacing: 3px;
 }
-
 body {
   background-color: #007ab7;
   color: #fff;
@@ -135,6 +142,16 @@ div {
   justify-content: center;
   align-items: center;
   margin: auto;
+}
+.header_img img {
+  animation-name: logo-anim;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+.header_logo img {
+  animation-name: logo-anim;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
 .webgl-container {
   min-width: 100%;
