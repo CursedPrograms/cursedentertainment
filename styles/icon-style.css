@@ -1,12 +1,20 @@
 @charset "utf-8";
 @keyframes icon-fade {
   from {
-    transform: scale(0);
-    opacity: 0;
+    transform: scale(0.8);
+    opacity: 0.5;
   }
   to {
     transform: scale(1);
     opacity: 1;
+  }
+}
+@keyframes icon-shrink {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.8);
   }
 }
 .icon-container {
@@ -34,7 +42,8 @@
   display: block;
 }
 .icon-container img:hover {
-  transform: scale(0.9);
+  animation-name: icon-shrink;
+  animation-duration: 0.5s;
 }
 .icon-img {
   width: 25%;
