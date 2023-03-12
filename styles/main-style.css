@@ -47,7 +47,7 @@ div {
   margin-bottom: 1%;
 }
 .side-buttons {
-	min-width: 100;
+  min-width: 100%;
   font-family: Futura, sans-serif;
   font-weight: lighter;
   letter-spacing: 3px;
@@ -62,8 +62,8 @@ div {
   max-height: 60px;
   line-height: 10px;
 }
-.embed-container{
-	min-width: 100;
+.embed-container {
+  min-width: 100%;
 }
 .content {
   padding-top: 260px;
