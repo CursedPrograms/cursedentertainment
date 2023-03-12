@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 .box-container{
+	display: flex;
 	align-content: center;
 }
 
@@ -58,4 +59,3 @@
 	color: white;
 	scroll-snap-align: centre;
 }
-
