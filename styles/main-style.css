@@ -174,7 +174,7 @@ div {
 }
 .videocontainer {
   max-width: 100%;
-  padding: 5%;
+  padding: 2%;
   align-content: center;
   align-items: center;
   justify-content: center;
@@ -184,6 +184,7 @@ div {
 }
 .video {
   padding: 1%;
+	margin: 1%;
 }
 .advert-container {
   max-height: 230px;
