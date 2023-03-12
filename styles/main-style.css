@@ -57,6 +57,13 @@ li {
 div {
   margin-bottom: 1%;
 }
+
+.banner-ad{
+	max-height: 250px;
+	min-height: 130px;
+	width:  100;
+}
+
 .content {
   max-width: 90%;
   margin: 0 auto;
