@@ -47,11 +47,12 @@ div {
   margin-bottom: 1%;
 }
 .side-buttons {
+	min-width: 100;
   font-family: Futura, sans-serif;
   font-weight: lighter;
   letter-spacing: 3px;
   list-style: none;
-  padding-right: 4px;
+  padding: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -62,7 +63,7 @@ div {
   line-height: 10px;
 }
 .content {
-  padding-top: 240px;
+  padding-top: 260px;
   max-width: 90%;
   margin: 0 auto;
   text-align: center;
