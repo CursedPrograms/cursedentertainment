@@ -59,6 +59,7 @@ div {
 }
 
 .banner-ad{
+	padding: 10px;
 	max-height: 250px;
 	min-height: 130px;
 	width:  100;
