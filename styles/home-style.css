@@ -58,12 +58,12 @@
   justify-content: center;
   align-items: center;
   padding-right: 1%;
+  z-index: 3;
 }
 .qr-container {
   max-width: 30px;
   text-align: right;
   display: block;
-  z-index: 3;
 }
 #discord {
   padding-top: 455px;
