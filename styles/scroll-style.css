@@ -1,0 +1,19 @@
+@charset "utf-8";
+.scoll-container{
+	width: 20rem;
+	height: 20rem;
+	background: white;
+	display: flex;
+	overflow-x: scroll;
+	scroll-snap-align: x mandatory;
+}
+
+.scroll-image{
+	min-width: 20rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 10rem;
+	color: white;
+}
+
