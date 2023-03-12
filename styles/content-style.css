@@ -2,7 +2,6 @@
 /* CSS Document */
 
 #container {
-  padding-top: 240px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
