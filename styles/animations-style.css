@@ -34,7 +34,7 @@ html {
 }
 .blink-div {
   animation-name: blink;
-  animation-duration: 3;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
 }
 .img-fade-div {
@@ -45,7 +45,7 @@ html {
 .img-fade-div-4 {
   animation-name: image-fade;
   animation-iteration-count: 1;
-  animation-duration: 4;
+  animation-duration: 4s;
 }
 .fade-reverse-div {
   animation-name: fade;
