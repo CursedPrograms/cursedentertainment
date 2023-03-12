@@ -1,5 +1,4 @@
 @charset "utf-8";
-/* CSS Document */
 body {
   background-color: #007ab7;
   color: #fff;
@@ -46,6 +45,21 @@ li {
 }
 div {
   margin-bottom: 1%;
+}
+.side-buttons {
+  font-family: Futura, sans-serif;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  list-style: none;
+  padding-right: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  font-size: 30px;
+  max-height: 60px;
+  line-height: 10px;
 }
 .content {
   padding-top: 240px;
@@ -98,8 +112,8 @@ div {
   flex-direction: row;
   z-index: 1;
 }
-.video{
-	padding: 1%;	
+.video {
+  padding: 1%;
 }
 .advert-container {
   max-height: 230px;
