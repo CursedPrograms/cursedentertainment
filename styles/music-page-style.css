@@ -1,11 +1,6 @@
 @charset "utf-8";
 #container {
-	padding-top: 280px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: left;
-  justify-content: center;
+  padding-top: 280px;
   height: 100%;
   width: 80%;
 }
