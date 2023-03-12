@@ -1,4 +1,15 @@
 @charset "utf-8";
+
+html{
+	scroll-behavior: smooth;
+}
+
+* {
+  font-family: Futura, sans-serif;
+  font-weight: lighter;
+  letter-spacing: 3px;
+}
+
 body {
   background-color: #007ab7;
   color: #fff;
@@ -38,11 +49,6 @@ li {
 }
 div {
   margin-bottom: 1%;
-}
-* {
-  font-family: Futura, sans-serif;
-  font-weight: lighter;
-  letter-spacing: 3px;
 }
 .content {
   max-width: 90%;
