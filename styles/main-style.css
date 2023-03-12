@@ -57,14 +57,17 @@ li {
 div {
   margin-bottom: 1%;
 }
-
-.banner-ad{
-	padding: 10px;
-	max-height: 250px;
-	min-height: 130px;
-	width:  100;
+.banner-ad {
+  position: relative;
+  overflow: hidden;
 }
-
+.banner-ad img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
 .content {
   max-width: 90%;
   margin: 0 auto;
