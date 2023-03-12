@@ -24,7 +24,7 @@ html {
     opacity: 0%;
   }
   to {
-    background-color: 100%;
+    opacity: 100%;
   }
 }
 
