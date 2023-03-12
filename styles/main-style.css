@@ -71,8 +71,7 @@ div {
   height: 100%;
   width: 100%;
 }
-.content {
-  padding-top: 280px;
+.content {  
   max-width: 90%;
   margin: 0 auto;
   text-align: center;
