@@ -9,7 +9,7 @@
   margin: 0 auto;
   text-align: center;
   align-items: center;
-  display: inline-block;
+  display: flex;
   flex-direction: column;
   padding-bottom: 2%;
 }
@@ -20,7 +20,7 @@
   text-align: center;
   align-items: center;
   align-content: center;
-  display: flex;
+  display: inline-block;
 }
 #twitter-timeline {
   padding-top: 320px;
