@@ -218,9 +218,7 @@ div {
   min-width: 100%;
 }
 .horizontal-menu {
-  color: #FFFFFF;
-  height: 10px;
-  width: 5%;
+   color: #FFFFFF;
   list-style: none;
   padding-right: 4px;
   display: flex;
@@ -269,4 +267,9 @@ div {
   display: inherit;
   -webkit-box-shadow: 0px 0px 16px 1px #FFFFFF;
   box-shadow: 0px 0px 16px 1px #FFFFFF;
+}
+
+.horizontal-menu ul {
+  display: flex;
+  flex-direction: row;
 }
