@@ -234,7 +234,7 @@ div {
   text-align: center;
 }
 .horizontal-menu li {
-  display: inline-block;
+  display: flex;
   padding-right: 2px;
   padding-bottom: 4px;
   padding-left: 2px;
