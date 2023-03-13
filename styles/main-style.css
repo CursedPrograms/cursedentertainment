@@ -70,13 +70,14 @@ div {
   overflow: hidden;
   width: 100%;
   padding-top: 13.77%;
+	border-radius: 10px;
 }
 .banner-ad {
   position: relative;
   overflow: hidden;
   width: 100%;
   padding-top: 33.91%;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .banner-ad img {
   position: absolute;
@@ -192,7 +193,6 @@ div {
 }
 .videocontainer {
   max-width: 100%;
-  padding: 2%;
   align-content: center;
   align-items: center;
   justify-content: center;
@@ -201,7 +201,9 @@ div {
   z-index: 1;
 }
 .video {
-  padding: 1%;
+	padding-left : 15%;	
+	padding-right : 15%;	
+	padding-bottom : 2%;	
   margin: 1%;
 }
 .advert-container {
