@@ -192,6 +192,7 @@ div {
   flex-direction: row;
 }
 .videocontainer {
+	padding: 1%;
   max-width: 100%;
   align-content: center;
   align-items: center;
@@ -201,8 +202,8 @@ div {
   z-index: 1;
 }
 .video {
-	padding-left : 15%;	
-	padding-right : 15%;	
+	padding-left : 5%;	
+	padding-right : 5%;	
 	padding-bottom : 2%;	
   margin: 1%;
 }
