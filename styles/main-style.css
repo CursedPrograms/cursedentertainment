@@ -32,6 +32,9 @@ h1 {
   font-weight: bold;
   text-align: center;
 }
+p{
+	text-align: left;
+}
 h2 {
   font-weight: bold;
   text-align: center;
