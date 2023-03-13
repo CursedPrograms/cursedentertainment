@@ -15,8 +15,9 @@
 }
 .container {
   padding-top: 280px;
-  max-width: 80%;
-  text-align: left;
+  max-width: 70%;
+  text-align: center;
+  align-items: center;
   align-content: center;
   display: inline-block;
 }
