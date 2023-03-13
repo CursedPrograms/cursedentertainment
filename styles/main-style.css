@@ -234,6 +234,7 @@ div {
   text-align: center;
 }
 .horizontal-menu li {
+	flex-grow: 1;
   display: flex;
   padding-right: 2px;
   padding-bottom: 4px;
@@ -245,7 +246,7 @@ div {
   margin-bottom: 16px;
 }
 .horizontal-menu li a {
-	  flex-grow: 1;
+	  
   display: inherit;
   color: white;
   text-align: center;
