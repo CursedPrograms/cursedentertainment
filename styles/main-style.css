@@ -9,11 +9,16 @@
     opacity: 1;
   }
 }
+@font-face {
+  font-family: 'Futura';
+  src: url('https://fonts.googleapis.com/css?family=Futura');
+}
 html {
   scroll-behavior: smooth;
 }
 * {
-  font-family: Futura, sans-serif;
+  -webkit-font-family: Futura, sans-serif;
+  -moz-font-family: Futura, sans-serif;
   font-weight: lighter;
   letter-spacing: 3px;
 }
