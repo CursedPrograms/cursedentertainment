@@ -57,19 +57,26 @@ li {
 div {
   margin-bottom: 1%;
 }
+.op_bg {
+  background-color: rgba(0, 122, 183, 0.8);
+}
+.img_bg {
+  background-image: url('path/to/image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .banner-ad1 {
-  padding-bottom: 1%;
   position: relative;
   overflow: hidden;
   width: 100%;
   padding-top: 13.77%;
 }
 .banner-ad {
-  padding-bottom: 1%;
   position: relative;
   overflow: hidden;
   width: 100%;
   padding-top: 33.91%;
+  border-radius: 5px;
 }
 .banner-ad img {
   position: absolute;
