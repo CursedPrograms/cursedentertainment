@@ -17,8 +17,7 @@ html {
   scroll-behavior: smooth;
 }
 * {
-  -webkit-font-family: Futura, sans-serif;
-  -moz-font-family: Futura, sans-serif;
+  font-family: Futura, sans-serif;
   font-weight: lighter;
   letter-spacing: 3px;
 }
