@@ -19,7 +19,8 @@
 }
 .icon-container {
   width: 100%;
-  padding: 2%;
+  padding-top: 5%;
+  padding-bottom: 1%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,7 +34,7 @@
 }
 .icon-container img {
   animation-name: icon-fade;
-  animation-duration: 2s;
+  animation-duration: 0.5s;
   animation-fill-mode: forwards;
   padding: 10px;
   display: flex;
