@@ -19,7 +19,7 @@
   text-align: center;
   align-items: center;
   align-content: center;
-  display: inline-block;
+  display: flex;
 }
 #twitter-timeline {
   padding-top: 320px;
