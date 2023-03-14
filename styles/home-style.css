@@ -12,9 +12,10 @@
   display: flex;
   flex-direction: column;
   padding-bottom: 2%;
+  background-color: transparent;
 }
 .container {
-  background-color: rgba(0, 122, 183, 0.8);
+  background-color: transparent;
   padding: 10px;
   position: relative;
   padding-top: 280px;
@@ -22,7 +23,7 @@
   text-align: center;
   align-items: center;
   align-content: center;
-  display: inline-block;
+  display: inline-block; 
 }
 #twitter-timeline {
   padding-top: 320px;
@@ -52,7 +53,7 @@
   top: 0;
   right: 0;
   bottom: 0;
-  width: 14%;
+  width: 218px;
   list-style: none;
   display: inline-block;
   flex-direction: column;
@@ -60,6 +61,7 @@
   align-items: center;
   padding-right: 1%;
   z-index: 4;
+  height: 0%;
 }
 .qr-container {
   max-width: 30px;
