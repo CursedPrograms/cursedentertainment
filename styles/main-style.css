@@ -94,10 +94,12 @@ div {
   z-index: 2;
 }
 .banner-ad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: 33.91%;
   border-radius: 10px;
   z-index: 2;
 }
