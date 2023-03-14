@@ -14,6 +14,7 @@
   padding-bottom: 2%;
 }
 .container {
+  background-color: rgba(0, 122, 183, 0.8);
   padding: 10px;
   position: relative;
   padding-top: 280px;
