@@ -69,9 +69,9 @@ div {
   background-color: rgba(0, 122, 183, 0.8);
 }
 .img_bg {
-  background-image: url('path/to/image.jpg');
+  background-image: url('https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/WebsiteBG.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;	
 }
 .banner-ad1 {
   position: relative;
