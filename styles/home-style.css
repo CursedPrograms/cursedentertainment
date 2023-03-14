@@ -1,5 +1,5 @@
 @charset "utf-8";
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1080px) {
   #twitter-timeline, #discord {
     display: none;
   }
@@ -14,6 +14,7 @@
   padding-bottom: 2%;
 }
 .container {
+  padding: 10px;
   position: relative;
   padding-top: 280px;
   max-width: 65%;
