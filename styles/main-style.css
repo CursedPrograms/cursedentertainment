@@ -73,6 +73,9 @@ div {
   background-size: cover;
   filter: blur(5px);
   background-attachment: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 .banner-ad1 {
   position: relative;
