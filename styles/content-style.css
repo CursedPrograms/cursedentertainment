@@ -1,16 +1,15 @@
 @charset "utf-8";
 #container {
-	padding-top: 280px;
+  padding-top: 320px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: left;
   justify-content: center;
-  height: 100%;
   width: 80%;
 }
 iframe {
-   margin-top: 20px;
+  margin-top: 20px;
   margin-right: 20px;
   margin-bottom: 20px;
   border: 0;
