@@ -84,6 +84,9 @@ div {
   z-index: 10;
 }
 .banner-ad1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -118,7 +121,8 @@ div {
   height: 100%;
 }
 .online-buttons {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
   list-style: none;
   padding: 2%;
   display: flex;
