@@ -82,7 +82,7 @@ div {
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
-	filter: blur(10px)
+	filter: blur(10px);
     height: 100%;
     top: 0;
     left: 0;
@@ -236,7 +236,6 @@ div {
   min-width: 100%;
 }
 .horizontal-menu {
-	background-color: #007ab7;
   color: #FFFFFF;
   list-style: none;
   padding-right: 4px;
