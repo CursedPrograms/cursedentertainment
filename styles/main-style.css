@@ -70,10 +70,10 @@ div {
   margin-bottom: 1%;
 }
 .op_bg {
-  position: absolute;
   background-color: rgba(0, 122, 183, 0.8);
 }
 .bg {
+  position: absolute;
   background-image: url('https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/WebsiteBG.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -81,9 +81,7 @@ div {
   background-position: center center;
   filter: blur(10px);
   height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
+  z-index: 10;
 }
 .banner-ad1 {
   position: relative;
@@ -109,6 +107,7 @@ div {
   object-fit: cover;
 }
 .content {
+  background-color: transparent;
   max-width: 90%;
   margin: 0 auto;
   text-align: center;
