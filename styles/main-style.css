@@ -27,7 +27,6 @@ body {
   color: #fff;
   display: block;
   align-items: center;
-  padding-bottom: 2%;
 }
 footer {
   font-weight: lighter;
@@ -71,7 +70,9 @@ div {
 .img_bg {
   background-image: url('https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/WebsiteBG.jpg');
   background-repeat: no-repeat;
-  background-size: cover;	
+  background-size: cover;
+  filter: blur(5px);
+  background-attachment: fixed;
 }
 .banner-ad1 {
   position: relative;
@@ -234,7 +235,7 @@ div {
   text-align: center;
 }
 .horizontal-menu li {
-	flex-grow: 1;
+  flex-grow: 1;
   display: flex;
   padding-right: 2px;
   padding-bottom: 4px;
@@ -246,7 +247,6 @@ div {
   margin-bottom: 16px;
 }
 .horizontal-menu li a {
-	  
   display: inherit;
   color: white;
   text-align: center;
