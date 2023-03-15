@@ -18,6 +18,7 @@
   }
 }
 .icon-container {
+  background-color: #007ab7;
   width: 100%;
   padding-top: 5%;
   padding-bottom: 1%;
@@ -37,7 +38,6 @@
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
   padding: 10px;
-  display: flex;
   justify-content: center;
   align-items: center;
   display: block;
