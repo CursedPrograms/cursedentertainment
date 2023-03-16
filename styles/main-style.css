@@ -69,6 +69,34 @@ li {
 div {
   margin-bottom: 1%;
 }
+select {
+	text-align: center;
+  width: 400px;
+  height: 40px;
+  background-color: #007ab7;
+  color: #fff;
+  border-radius: 10px / 5px;
+  border: thin solid #FFFFFF;
+  font-size: small;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  flex-grow: 1;
+  display: flex;
+}
+select option {
+	text-align: center;
+	font-size: small;
+  background-color: #007ab7;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+}
+select option:hover {
+  background-color: #f088e9;
+}
 .op_bg {
   background-color: rgba(0, 122, 183, 0.8);
 }
@@ -81,7 +109,7 @@ div {
   background-position: center center;
   filter: blur(10px);
   height: 100%;
-  z-index: 10;
+  z-index: -1;
 }
 .banner-ad1 {
   display: flex;
@@ -139,7 +167,6 @@ div {
   padding-right: 2px;
   padding-bottom: 4px;
   padding-left: 2px;
-  padding-top: 4px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -251,11 +278,10 @@ div {
   text-align: center;
 }
 .horizontal-menu li {
-  flex-grow: 1;
   display: flex;
-  padding-right: 2px;
+  padding-right: 1px;
   padding-bottom: 4px;
-  padding-left: 2px;
+  padding-left: 1px;
   padding-top: 4px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -263,28 +289,21 @@ div {
   margin-bottom: 16px;
 }
 .horizontal-menu li a {
-  display: inherit;
+  width: 160px;
+  flex-grow: 1;
   color: white;
   text-align: center;
-  padding-top: 15px;
-  padding-right: 15px;
-  padding-bottom: 15px;
-  padding-left: 15px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
   background-color: #168FCC;
   border-radius: 10px / 5px;
   border: thin solid #FFFFFF;
   font-size: medium;
-  height: 10px;
 }
 .horizontal-menu li a:hover {
   background-color: #f088e9;
-  border: thin solid #FFFFFF;
-  border-radius: 8px / 4px;
-  padding-top: 15px;
-  padding-right: 15px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  display: inherit;
   -webkit-box-shadow: 0px 0px 16px 1px #FFFFFF;
   box-shadow: 0px 0px 16px 1px #FFFFFF;
 }
