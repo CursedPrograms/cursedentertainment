@@ -334,7 +334,7 @@ p.nominalBounds = new cjs.Rectangle(-272,-390,544,780);
 		this.addEventListener("tick", checkEndOfAnimation);
 		function checkEndOfAnimation() {
 		   if (this.currentFrame == this.totalFrames) {
-		      window.location.href = "https://cursedprograms.github.io/cursedentertainment/pages/home.html";
+		      window.location.href = "./pages/home.html";
 		   }
 		}
 	}
