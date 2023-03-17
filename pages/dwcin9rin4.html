@@ -28,16 +28,16 @@
     <form>
       <select name="Music" id="music">
         <option value="" selected disabled hidden>Music</option>
-        <option value="cursedentertainment" href="https://soundcloud.com/cursedentertainment">Cursed Entertainment</option>
-        <option value="dwcin9_rin4" href="https://soundcloud.com/dwcin9_rin4">Dwcin9 Rin4</option>
+        <option value="https://soundcloud.com/cursedentertainment">Cursed Entertainment</option>
+        <option value="https://soundcloud.com/dwcin9_rin4">Dwcin9 Rin4</option>
       </select>
       <script>
-	  const selectElement = document.querySelector('#music');
-  selectElement.addEventListener('change', (event) => {
-    const url = event.target.value;
-    window.location.href = url;
-  });
-	</script>
+    const selectElement = document.querySelector('#music');
+    selectElement.addEventListener('change', (event) => {
+      const url = event.target.value;
+      window.location.href = url;
+    });
+  </script>
     </form>
   </div>
   <div id="container">
