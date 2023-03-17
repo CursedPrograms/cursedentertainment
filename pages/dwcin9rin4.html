@@ -10,28 +10,42 @@
 <meta charset="UTF-8">
 </head>
 <body>
-	<div  class="content">
-<div class="header_container">
-  <div class="header_logo"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/spr_cursedLogo.png" alt="CursedEntertainment Logo" width="138.5" height="74.5"> </div>
-  <div class="horizontal-menu"> <br>
-    <ul>
-      <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/home.html">Home</a></li>
-      <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/games.html">Games</a></li>
-      <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/tools.html">Tools</a></li>
-		<li><a href="https://cursed-arcade.netlify.app">Cursed Arcade</a></li>
-      <li><a href="https://www.yumpu.com/user/cursed.entertainment">Stories</a></li>
-      <li><a href="https://cursedentertainment.indie.af/">GJ Portfolio</a></li>
-      <li><a href="https://cursed-entertainment.itch.io/" style="border-top-left-radius: margin-bottom: 1px">itch.io</a></li>
-      <li><a href="https://ce-chat.netlify.app/">CEChat</a></li>
-    </ul>
+<div  class="content">
+  <div class="header_container">
+    <div class="header_logo"> <img src="../images/spr_cursedLogo.png" alt="CursedEntertainment Logo" width="138.5" height="74.5"> </div>
+    <div class="horizontal-menu"> <br>
+      <ul>
+        <li><a href="../pages/home.html">Home</a></li>
+        <li><a href="../pages/games.html">Games</a></li>
+        <li><a href="../pages/tools.html">Tools</a></li>
+        <li><a href="https://cursed-arcade.netlify.app">Cursed Arcade</a></li>
+        <li><a href="../pages/stories.html">Stories</a></li>
+        <li><a href="https://cursedentertainment.indie.af/">GJ Portfolio</a></li>
+        <li><a href="https://cursed-entertainment.itch.io/" style="border-top-left-radius: margin-bottom: 1px">itch.io</a></li>
+        <li><a href="https://ce-chat.netlify.app/">CEChat</a></li>
+      </ul>
+    </div>
+    <form>
+      <select name="Music" id="music">
+        <option value="" selected disabled hidden>Games and Stories</option>
+        <option value="araknia" href="https://soundcloud.com/cursedentertainment">Cursed Entertainment</option>
+        <option value="nystylla" href="https://soundcloud.com/dwcin9_rin4">Dwcin9 Rin4</option>
+      </select>
+      <script>
+	  const selectElement = document.querySelector('#music');
+  selectElement.addEventListener('change', (event) => {
+    const url = event.target.value;
+    window.location.href = url;
+  });
+	</script>
+    </form>
   </div>
-</div>
   <div id="container">
     <div class="horizontal-menu"> <br>
       <ul>
-        <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/paxzifizia.html">Paxzifizia</a></li>
-        <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/eps.html">EPs</a></li>
-        <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/soundtracks.html">Soundtracks</a></li>
+        <li><a href="../pages/paxzifizia.html">Paxzifizia</a></li>
+        <li><a href="../pages/eps.html">EPs</a></li>
+        <li><a href="../pages/soundtracks.html">Soundtracks</a></li>
       </ul>
     </div>
     <div class="videocontainer">
@@ -48,7 +62,7 @@
         <ul>
           <li>Release Date: 28 August 2022</li>
           <br>
-          <div class="albumcover"><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/innerDemonsSmall.jpg" alt="Inner Demons"> </div>
+          <div class="albumcover"><img src="../images/innerDemonsSmall.jpg" alt="Inner Demons"> </div>
           <br>
           <li>Tracklist:
             <ol>
@@ -67,7 +81,7 @@
         <ul>
           <li>Release Date: 26 October 2022</li>
           <br>
-          <div class="albumcover"><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/MoCsmall.jpg" alt="Maltreatment of Corruption"></div>
+          <div class="albumcover"><img src="../images/MoCsmall.jpg" alt="Maltreatment of Corruption"></div>
           <br>
           <li>Tracklist:
             <ol>
@@ -85,7 +99,7 @@
         <ul>
           <li>Release Date: 23 October 2022</li>
           <br>
-          <div class="albumcover"><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/seekAsylumSmall.jpg" alt="Seek Asylum"></div>
+          <div class="albumcover"><img src="../images/seekAsylumSmall.jpg" alt="Seek Asylum"></div>
           <br>
           <li>Tracklist:
             <ol>
@@ -103,7 +117,7 @@
         <ul>
           <li>Release Date: 12 November 2022</li>
           <br>
-          <div class="albumcover"><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/crimsoncloversmall.jpg" alt="Crimson & Clover"></div>
+          <div class="albumcover"><img src="../images/crimsoncloversmall.jpg" alt="Crimson & Clover"></div>
           <br>
           <li>Tracklist:
             <ol>
@@ -121,7 +135,7 @@
         <ul>
           <li>Release Date: 19 November 2022</li>
           <br>
-          <div class="albumcover"><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/FSLsmall.jpg" alt="FSL"></div>
+          <div class="albumcover"><img src="../images/FSLsmall.jpg" alt="FSL"></div>
           <br>
           <li>Tracklist:
             <ol>
@@ -139,7 +153,7 @@
         <ul>
           <li>Release Date: 20 November 2022</li>
           <br>
-          <div class="albumcover"><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/trashtownSmall.jpg" alt="Trash Town"></div>
+          <div class="albumcover"><img src="../images/trashtownSmall.jpg" alt="Trash Town"></div>
           <br>
           <li>Tracklist:
             <ol>
@@ -157,7 +171,7 @@
         <ul>
           <li>Release Date: 23 November 2022</li>
           <br>
-          <div class="albumcover"><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/JFYsmall.jpg" alt="Just F*ck You"></div>
+          <div class="albumcover"><img src="../images/JFYsmall.jpg" alt="Just F*ck You"></div>
           <br>
           <li>Tracklist:
             <ol>
@@ -184,7 +198,7 @@
         <ul>
           <li>Release Date: 5 December 2022</li>
           <br>
-          <div class="albumcover"><img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/BearWitness_small.jpg" alt="Bear Witness"></div>
+          <div class="albumcover"><img src="../images/BearWitness_small.jpg" alt="Bear Witness"></div>
           <br>
           <li>Tracklist:
             <ol>
@@ -200,12 +214,12 @@
     <br>
     <div class="horizontal-menu"> <br>
       <ul>
-        <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/paxzifizia.html">Paxzifizia</a></li>
-        <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/eps.html">EPs</a></li>
-        <li><a href="https://cursedprograms.github.io/cursedentertainment/pages/soundtracks.html">Soundtracks</a></li>
+        <li><a href="../pages/paxzifizia.html">Paxzifizia</a></li>
+        <li><a href="../pages/eps.html">EPs</a></li>
+        <li><a href="../pages/soundtracks.html">Soundtracks</a></li>
       </ul>
     </div>
-    <div class="icon-container"> <a href="https://www.facebook.com/CursedEntertainment/"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/FB_icon-01.png" alt="Facecbook" class="icon-img"> </a> <a href="https://www.instagram.com/cursed.entertainment/"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/instagram_icon-01.png" alt="Instagram" class="icon-img"> </a> <a href="https://www.youtube.com/channel/UCmTHNMTp-i1TY-jxMqSjBpw"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/YT_icon-01.png" alt="YouTube" class="icon-img"> </a> <a href="https://www.tiktok.com/@cursedentertainment"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/TT_icon-01-01.png" alt="Tiktok" class="icon-img"> </a> <a href="https://www.behance.net/cursedentertainment"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/behanceIcon-01.png" alt="Behance" class="icon-img"> </a> <a href="https://github.com/CursedPrograms"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/GH_icon-01.png" alt="GitHub" class="icon-img"> </a> <a href="https://cursed-entertainment.itch.io/"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/itch_icon-01.png" alt="itch.io" class="icon-img"> </a> <a href="https://gamejolt.com/@CursedEntertainment"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/GJ_icon-01.png" alt="GameJolt" class="icon-img"> </a> <a href="https://soundcloud.com/cursedentertainment"> <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/SC_icon-01.png" alt="Behance" class="icon-img"> </a> </div>
+    <div class="icon-container"> <a href="https://www.facebook.com/CursedEntertainment/"> <img src="../images/FB_icon-01.png" alt="Facecbook" class="icon-img"> </a> <a href="https://www.instagram.com/cursed.entertainment/"> <img src="../images/instagram_icon-01.png" alt="Instagram" class="icon-img"> </a> <a href="https://www.youtube.com/channel/UCmTHNMTp-i1TY-jxMqSjBpw"> <img src="../images/YT_icon-01.png" alt="YouTube" class="icon-img"> </a> <a href="https://www.tiktok.com/@cursedentertainment"> <img src="../images/TT_icon-01-01.png" alt="Tiktok" class="icon-img"> </a> <a href="https://www.behance.net/cursedentertainment"> <img src="../images/behanceIcon-01.png" alt="Behance" class="icon-img"> </a> <a href="https://github.com/CursedPrograms"> <img src="../images/GH_icon-01.png" alt="GitHub" class="icon-img"> </a> <a href="https://cursed-entertainment.itch.io/"> <img src="../images/itch_icon-01.png" alt="itch.io" class="icon-img"> </a> <a href="https://gamejolt.com/@CursedEntertainment"> <img src="../images/GJ_icon-01.png" alt="GameJolt" class="icon-img"> </a> <a href="https://soundcloud.com/cursedentertainment"> <img src="../images/SC_icon-01.png" alt="Soundcloud" class="icon-img"> </a> </div>
     <footer>呪われた エンターテイメント <br>
       © Cursed Entertainment 2023 </footer>
   </div>
