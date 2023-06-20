@@ -1,20 +1,50 @@
-@charset "utf-8";
-#container {
-  padding-top: 320px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: left;
-  justify-content: center;
-  width: 80%;
-}
-iframe {
-  margin-top: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-  border: 0;
-  display: block;
-  width: 45%;
-  max-width: 550px;
-  height: 165px;
-}
+        #container {
+          padding-top: 320px;
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: row;
+          align-items: left;
+          justify-content: center;
+          width: 80%;
+          padding-bottom: 2%;
+        }
+        iframe {
+          margin-top: 20px;
+          margin-right: 20px;
+          margin-bottom: 20px;
+          border: 0;
+          display: block;
+          width: 45%;
+          max-width: 550px;
+          height: 165px;
+        }
+        .grid_conatiner {
+          padding-top: 320px;
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: row;
+          align-items: left;
+          justify-content: center;
+          width: 80%;
+          padding-bottom: 2%;
+        }
+        .grid {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-gap: 10px;
+          width: 100%; 
+        }
+        .grid-item {
+          width: 100%;
+          padding-bottom: 100%;
+          position: relative;
+          overflow: hidden;
+        }
+        .grid-item img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
