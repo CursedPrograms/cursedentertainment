@@ -24,6 +24,19 @@ html {
   font-weight: lighter;
   letter-spacing: 3px;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #005184;
+}
+::-webkit-scrollbar-thumb {
+  background: #007ab7; 
+  border-radius: 5px; 
+}
+::-webkit-scrollbar-track {
+  background: #eee;
+}
 body {
   z-index: 0;
   background-color: #007ab7;
