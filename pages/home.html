@@ -16,8 +16,7 @@
   <link href="../styles/icon-style.css" rel="stylesheet" type="text/css">
   <link href="../styles/animations-style.css" rel="stylesheet" type="text/css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <script src="../scripts/initOwlCarousel.js"></script>
-  <script src="../scripts/script.js"></script>
+  <script src="../scripts/initOwlCarousel.js"></script>  
 </head>
 <body>
   <div class="advert-container">
@@ -78,25 +77,11 @@
           <li><a href="https://ce-chat.netlify.app/">CEChat</a></li>
           <li><a href="https://cursed-entertainment.github.io/cursed-directory/">Directory</a></li>
         </ul>
-      </div>
-      <form>
-        <select name="Games" id="games">
-          <option value="" selected disabled hidden>Games and Stories</option>
-          <option value="https://cursed-entertainment.itch.io/araknia">Araknia</option>
-          <option value="https://cursed-entertainment.itch.io/nystylla">Nystylla: Girls of Maluxzka</option>
-          <option value="https://cursed-entertainment.itch.io/arise-mexzmiriah">Arise Mexziriah</option>
-          <option value="https://cursed-entertainment.itch.io/mirror-macabre">Mirror Macabre</option>
-          <option value="https://cursed-entertainment.itch.io/retrofizia-beginning">Retrofizia - Beginning</option>
-        </select>
-        <script>
-          const selectElement = document.querySelector('#games');
-          selectElement.addEventListener('change', (event) => {
-            const url = event.target.value;
-            window.location.href = url;
-          });
-        </script>
-      </form>
-    </div>
+     <div id="game-selector">
+    <form>
+      <script src="../scripts/script.js"></script>
+    </form>
+  </div>
     <!--
   <img id="myImage" src="placeholder.jpg" alt="Advert">
 -->
