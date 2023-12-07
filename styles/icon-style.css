@@ -20,8 +20,8 @@
 }
 
 .icon-container {
-  width:  100vw;
-  display: flex;
+  width: 100%;
+  display: block;
   justify-content: center;
   align-items: center;
   border-top: thin outset #FFFFFF;
