@@ -20,7 +20,7 @@
 }
 
 .icon-container {
-  width: 100%;
+  width: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
