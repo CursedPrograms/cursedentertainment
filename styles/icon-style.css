@@ -49,7 +49,7 @@
 }
 
 .icon-img {
-  width: 100%; /* Adjust this value to control the size of the icons */
+  width: 25%; /* Adjust this value to control the size of the icons */
   height: auto; /* Maintain aspect ratio */
   max-width: 100%; /* Ensure it doesn't exceed the container width */
 }
