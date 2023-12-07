@@ -20,12 +20,14 @@
 }
 
 .icon-container {
+  align-self: center;
   width: 100%;
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   border-top: thin outset #FFFFFF;
   padding: 2% 0; /* Adjust these values as needed */
+  overflow: hidden; /* Hide overflow content */
 }
 
 .icon-container a {
@@ -47,7 +49,7 @@
 }
 
 .icon-img {
-  width: 25%; /* Adjust this value to control the size of the icons */
+  width: 100%; /* Adjust this value to control the size of the icons */
   height: auto; /* Maintain aspect ratio */
   max-width: 100%; /* Ensure it doesn't exceed the container width */
 }
