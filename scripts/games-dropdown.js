@@ -1,14 +1,17 @@
 document.addEventListener('DOMContentLoaded', function () {
+  const gameSelectorDiv = document.createElement('div');
+  gameSelectorDiv.id = 'game-selector';
+
   const form = document.createElement('form');
   const selectElement = document.createElement('select');
   selectElement.name = 'Games';
   selectElement.id = 'games';
 
   const games = [
-    { value: 'https://araknia.netlify.app/', label: 'Araknia' },
-    { value: 'https://nystylla-girls-of-maluxzka.netlify.app/', label: 'Nystylla: Girls of Maluxzka' },
-    { value: 'https://arise-mexzmiriah.netlify.app/', label: 'Arise Mexziriah' },
-    { value: 'https://mirror-macabre.netlify.app/', label: 'Mirror Macabre' },
+    { value: 'https://cursed-entertainment.itch.io/araknia', label: 'Araknia' },
+    { value: 'https://cursed-entertainment.itch.io/nystylla', label: 'Nystylla: Girls of Maluxzka' },
+    { value: 'https://cursed-entertainment.itch.io/arise-mexzmiriah', label: 'Arise Mexziriah' },
+    { value: 'https://cursed-entertainment.itch.io/mirror-macabre', label: 'Mirror Macabre' },
     { value: 'https://cursed-entertainment.itch.io/retrofizia-beginning', label: 'Retrofizia - Beginning' }
   ];
 
@@ -33,5 +36,6 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   form.appendChild(selectElement);
-  document.body.appendChild(form);
+  gameSelectorDiv.appendChild(form);
+  document.body.appendChild(gameSelectorDiv);
 });
