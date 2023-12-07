@@ -1,2 +1,2 @@
-<footer id="dynamicFooter"></footer>
-<script src="/scripts/footer.js"></script>
+const footerElement = document.getElementById('dynamicFooter');
+footerElement.innerHTML = '呪われた エンターテイメント <br> © Cursed Entertainment 2023';
