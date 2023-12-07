@@ -18,37 +18,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
   <script src="../scripts/initOwlCarousel.js"></script>
 </head>
-
-<body>
-  <div class="advert-container">
-    <script>
-      var isAndroid = /(android)/i.test(navigator.userAgent);
-      var isPC = !isAndroid && /(windows|mac os|linux)/i.test(navigator.userAgent);
-      if (isAndroid) {
-        if ('xr' in navigator && 'supportsSession' in navigator.xr) {
-          navigator.xr.supportsSession({ optionalFeatures: ['ar'], requiredFeatures: [] })
-            .then(() => {
-              var imgElement = document.getElementById("myImage");
-              imgElement.src = "https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/GirlsOfMaluxzkaAD.png";
-              imgElement.alt = "AR Advert";
-            })
-            .catch(() => {
-              var imgElement = document.getElementById("myImage");
-              imgElement.src = "https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/GirlsOfMaluxzkaAD.png";
-              imgElement.alt = "Android Advert";
-            });
-        } else {
-          var imgElement = document.getElementById("myImage");
-          imgElement.src = "https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/GirlsOfMaluxzkaAD.png";
-          imgElement.alt = "Android Advert";
-        }
-      } else if (isPC) {
-        var imgElement = document.getElementById("myImage");
-        imgElement.src = "https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/GirlsOfMaluxzkaAD.png";
-        imgElement.alt = "PC Advert";
-      }
-    </script>
-  </div>
+<body>  
   <div class="twittercontainer">
     <div id="twitter-timeline"> <a class="twitter-timeline" data-width="500" data-height="600" data-theme="light"
         href="https://twitter.com/NorowaretaGemu">Tweets by NorowaretaGemu</a> </div>
@@ -81,9 +51,6 @@
         </div>
         <div id="game-selector">
         </div>
-        <!--
-  <img id="myImage" src="placeholder.jpg" alt="Advert">
--->
         <div class="container">
           <div class="bg"> </div>
           <div class="banner-ad"> <a href="https://cursed-entertainment.itch.io/araknia"> <img
