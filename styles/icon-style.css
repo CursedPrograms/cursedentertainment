@@ -9,6 +9,7 @@
     opacity: 1;
   }
 }
+
 @keyframes icon-shrink {
   from {
     transform: scale(1);
@@ -19,12 +20,12 @@
 }
 
 .icon-container {
-  padding-top: 2%;
-  padding-bottom: 2%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   border-top: thin outset #FFFFFF;
+  padding: 2% 0; /* Adjust these values as needed */
 }
 
 .icon-container a {
@@ -46,6 +47,7 @@
 }
 
 .icon-img {
-  width: 25%;
-  height: 25%;
+  width: 25%; /* Adjust this value to control the size of the icons */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure it doesn't exceed the container width */
 }
