@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const gameSelectorDiv = document.getElementById('game-selector');
+  console.log('DOMContentLoaded event fired');
+  const gameSelectorDiv = document.createElement('div');
+  gameSelectorDiv.id = 'game-selector';
 
   const form = document.createElement('form');
   const selectElement = document.createElement('select');
@@ -20,7 +22,6 @@ document.addEventListener('DOMContentLoaded', function () {
   defaultOption.disabled = true;
   defaultOption.hidden = true;
   defaultOption.textContent = 'Games and Stories';
-
   selectElement.appendChild(defaultOption);
 
   games.forEach(function (game) {
@@ -37,4 +38,5 @@ document.addEventListener('DOMContentLoaded', function () {
 
   form.appendChild(selectElement);
   gameSelectorDiv.appendChild(form);
+  document.body.appendChild(gameSelectorDiv);
 });
