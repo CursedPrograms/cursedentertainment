@@ -327,3 +327,18 @@ select option:hover {
   display: flex;
   flex-direction: row;
 }
+#game-selector form {
+  margin-top: 10px; /* Adjust as needed */
+}
+
+#games {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#games:hover {
+  border-color: #888;
+}
