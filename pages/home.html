@@ -176,5 +176,36 @@
 <br>
 <footer id="dynamicFooter"></footer>
 <script src="../scripts/footer.js"></script>
+	<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    console.log('DOMContentLoaded event fired');
+    const gameSelectorDiv = document.createElement('div');
+    gameSelectorDiv.id = 'game-selector';
+
+    const form = document.createElement('form');
+    const selectElement = document.createElement('select');
+    selectElement.name = 'Games';
+    selectElement.id = 'games';
+
+    const games = [
+    { value: 'https://araknia.netlify.app/', label: 'Araknia' },
+    { value: 'https://nystylla-girls-of-maluxzka.netlify.app/', label: 'Nystylla: Girls of Maluxzka' },
+    { value: 'https://arise-mexzmiriah.netlify.app/', label: 'Arise Mexziriah' },
+    { value: 'https://mirror-macabre.netlify.app/', label: 'Mirror Macabre' },
+    { value: 'https://cursed-entertainment.itch.io/retrofizia-beginning', label: 'Retrofizia - Beginning' }
+  ];
+
+    selectElement.addEventListener('change', function (event) {
+      const url = event.target.value;
+      window.location.href = url;
+    });
+
+    form.appendChild(selectElement);
+    gameSelectorDiv.appendChild(form);
+
+    document.body.appendChild(gameSelectorDiv);
+  });
+</script>
+
 </body>
 </html>
