@@ -342,3 +342,12 @@ select option:hover {
 #games:hover {
   border-color: #888;
 }
+
+icon-iframe {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
