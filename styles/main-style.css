@@ -1,4 +1,10 @@
 @charset "utf-8";
+
+@import url('../styles/banner-ad-style.css');
+@import url('../styles/footer-style.css');
+@import url('../styles/icons-container-style.css');
+@import url('../styles/header-style.css');
+
 @keyframes logo-anim {
   from {
     transform: scale(0.8);
@@ -47,12 +53,7 @@ body {
   display: block;
   align-items: center;
 }
-footer {
-  background-color: #007ab7;
-  font-weight: lighter;
-  text-align: center;
-  padding-bottom: 2%;
-}
+
 h1 {
   font-weight: bold;
   text-align: center;
@@ -127,33 +128,6 @@ select option:hover {
   height: 100%;
   z-index: -1;
 }
-.banner-ad1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  border-radius: 10px;
-  z-index: 2;
-}
-.banner-ad {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  border-radius: 10px;
-  z-index: 2;
-}
-.banner-ad img {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 .content {
   background-color: transparent;
   max-width: 90%;
@@ -222,45 +196,6 @@ select option:hover {
   -webkit-box-shadow: 0px 0px 16px 1px #FFFFFF;
   box-shadow: 0px 0px 16px 1px #FFFFFF;
 }
-.header_container {
-  padding-top: 4%;
-  max-height: 230px;
-  min-width: 100%;
-  background-color: #007ab7;
-  position: fixed;
-  top: -24px;
-  border-bottom: thin inset #FFFFFF;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  z-index: 3;
-}
-.header_img {
-  text-align: center;
-  display: block;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-}
-.header_img img {
-  animation-name: logo-anim;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-}
-.header_logo img {
-  animation-name: logo-anim;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-}
-.webgl-container {
-  min-width: 100%;
-  padding: 5%;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
-}
 .videocontainer {
   max-width: 100%;
   align-content: center;
@@ -328,7 +263,7 @@ select option:hover {
   flex-direction: row;
 }
 #game-selector form {
-  margin-top: 10px; /* Adjust as needed */
+  margin-top: 10px;
 }
 
 #games {
@@ -341,13 +276,4 @@ select option:hover {
 
 #games:hover {
   border-color: #888;
-}
-
-icon-iframe {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  overflow: hidden;
 }
