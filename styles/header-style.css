@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+@keyframes logo-anim {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.header_container {
+  padding-top: 4%;
+  max-height: 230px;
+  min-width: 100%;
+  background-color: #007ab7;
+  position: fixed;
+  top: -24px;
+  border-bottom: thin inset #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 3;
+}
+.header_img {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.header_img img {
+  animation-name: logo-anim;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+.header_logo img {
+  animation-name: logo-anim;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}

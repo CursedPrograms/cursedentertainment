@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Farica☆Kimora</title>
+  <link rel="icon" type="image/png" href="/cursedFavicon.png">
+  <link href="../styles/music-page-style.css" rel="stylesheet" type="text/css">
+  <link href="../styles/main-style.css" rel="stylesheet" type="text/css">
+  <link href="../styles/icon-style.css" rel="stylesheet" type="text/css">
+  <link href="../styles/animations-style.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <div class="content">
+    <div class="header_container">
+      <div class="header_logo"> <img src="../images/spr_cursedLogo.png" alt="CursedEntertainment Logo" width="138.5"
+          height="74.5"> </div>
+      <div class="horizontal-menu"> <br>
+        <ul>
+          <li><a href="../pages/home.html">Home</a></li>
+          <li><a href="../pages/games.html">Games</a></li>
+          <li><a href="../pages/tools.html">Tools</a></li>
+          <li><a href="https://cursed-arcade.netlify.app">Cursed Arcade</a></li>
+          <li><a href="../pages/stories.html">Stories</a></li>
+          <li><a href="https://cursedentertainment.indie.af/">GJ Portfolio</a></li>
+          <li><a href="https://cursed-entertainment.itch.io/">itch.io</a></li>
+          <li><a href="https://ce-chat.netlify.app/">CEChat</a></li>
+        </ul>
+      </div>
+      <form>
+        <select name="Music" id="music">
+          <option value="" selected disabled hidden>Music</option>
+          <option value="https://soundcloud.com/cursedentertainment">Cursed Entertainment</option>
+          <option value="https://soundcloud.com/dwcin9_rin4">🅳𝖜𝖈𝓲𝖓9 ℝ🅸𝖓4</option>
+          <option value="https://soundcloud.com/farica-kimora">Farica☆Kimora</option>
+          <option value="https://soundcloud.com/varnica-vayla">Vayla Varnica</option>
+        </select>
+        <script>
+          const selectElement = document.querySelector('#music');
+          selectElement.addEventListener('change', (event) => {
+            const url = event.target.value;
+            window.location.href = url;
+          });
+        </script>
+      </form>
+    </div>
+    <div id="container">
+      <div class="horizontal-menu"> <br>
+        <ul>
+          <li><a href="../pages/dwcin9rin4.html">🅳𝖜𝖈𝓲𝖓9 ℝ🅸𝖓4</a></li>
+          <li><a href="../pages/vayla-music.html">Vayla Varnica</a></li>
+          <li><a href="../pages/paxzifizia.html">Paxzifizia</a></li>
+          <li><a href="../pages/eps.html">EPs</a></li>
+          <li><a href="../pages/soundtracks.html">Soundtracks</a></li>
+        </ul>
+      </div>
+      <div class="horizontal-menu"> <br>
+        <ul>
+          <li><a href="../pages/faricagallery.html">Images</a></li>
+        </ul>
+      </div>
+      <div class="albums-container">
+        <div class="album-container">
+          <h3><strong>$lut (ft 🅳𝖜𝖈𝓲𝖓9 ℝ🅸𝖓4)</strong> </h3>
+          <ul>
+            <li>Release Date: 04 April 2023</li>
+            <br>
+            <li><img src="../images/slut-small.jpg" alt="$lut (ft 🅳𝖜𝖈𝓲𝖓9 ℝ🅸𝖓4)" width="150" height="150"></li>
+            <br>
+            <li>Tracklist:
+              <ol>
+                <li>$lut (ft 🅳𝖜𝖈𝓲𝖓9 ℝ🅸𝖓4)</li>
+              </ol>
+              <ul>
+                <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
+                  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1484817022&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="horizontal-menu"> <br>
+        <ul>
+          <li><a href="../pages/faricagallery.html">Images</a></li>
+        </ul>
+      </div>
+      <div class="horizontal-menu"> <br>
+        <ul>
+          <li><a href="../pages/dwcin9rin4.html">🅳𝖜𝖈𝓲𝖓9 ℝ🅸𝖓4</a></li>
+          <li><a href="../pages/vayla-music.html">Vayla Varnica</a></li>
+          <li><a href="../pages/paxzifizia.html">Paxzifizia</a></li>
+          <li><a href="../pages/eps.html">EPs</a></li>
+          <li><a href="../soundtracks.html">Soundtracks</a></li>
+        </ul>
+      </div>      
+    </div>
+  </div>
+  <div class="icons_container"> <br><iframe src="../icons/icon-container.html" frameborder="0"></iframe>  </div>
+  <footer id="dynamicFooter"></footer>
+  <script src="../scripts/footer.js"></script>
+</body>
+</html>

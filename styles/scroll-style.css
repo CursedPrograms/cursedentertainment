@@ -1,0 +1,54 @@
+@charset "utf-8";
+.box-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.box1 {
+  width: 20rem;
+  height: 20rem;
+  background-color: #007ab7;
+}
+.box2 {
+  width: 20rem;
+  height: 20rem;
+  background-color: #f088e9;
+}
+.box3 {
+  width: 20rem;
+  height: 20rem;
+  background-color: #007ab7;
+}
+.box4 {
+  width: 20rem;
+  height: 20rem;
+  background-color: #f088e9;
+}
+.box5 {
+  width: 20rem;
+  height: 20rem;
+  background-color: #007ab7;
+}
+.box6 {
+  width: 20rem;
+  height: 20rem;
+  background-color: #f088e9;
+}
+.scoll-container {
+  width: 20rem;
+  height: 20rem;
+  background: white;
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x proximity;
+}
+.scoll-container div {
+  min-width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10rem;
+  color: white;
+  scroll-snap-align: centre;
+}
