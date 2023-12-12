@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
   defaultOption.selected = true;
   defaultOption.disabled = true;
   defaultOption.hidden = true;
-  defaultOption.textContent = 'Games and Stories';
+  defaultOption.textContent = 'Games';
   selectElement.appendChild(defaultOption);
 
   games.forEach(function (game) {
