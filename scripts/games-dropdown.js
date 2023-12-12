@@ -1,11 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
   console.log('DOMContentLoaded event fired');
-  const parentDiv = document.createElement('div');
-  parentDiv.style.display = 'flex';
-  parentDiv.style.justifyContent = 'center';
-  parentDiv.style.alignItems = 'center';
-  document.body.appendChild(parentDiv);
-
+  
   const gameSelectorDiv = document.createElement('div');
   gameSelectorDiv.style.display = 'flex';
   gameSelectorDiv.style.flexDirection = 'column';
@@ -45,5 +40,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
   form.appendChild(selectElement);
   gameSelectorDiv.appendChild(form);
+  
+  const parentDiv = document.createElement('div');
+  parentDiv.style.display = 'flex';
+  parentDiv.style.justifyContent = 'center';
+  parentDiv.style.alignItems = 'center';
   parentDiv.appendChild(gameSelectorDiv);
+  
+  document.body.appendChild(parentDiv);
 });
