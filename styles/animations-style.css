@@ -1,111 +1,136 @@
 html {
   animation-delay: 2s;
 }
+
 @keyframes blink {
   0% {
     background-color: #f088e9;
   }
+
   100% {
     background-color: #007ab7;
   }
 }
+
 @keyframes fade {
   from {
     background-color: #f088e9;
   }
+
   to {
     background-color: #007ab7;
   }
 }
+
 @keyframes image-fade {
   from {
     opacity: 0%;
   }
+
   to {
     opacity: 1;
   }
 }
+
 @keyframes scale-fade {
   from {
     transform: scale(0);
     opacity: 0;
   }
+
   to {
     transform: scale(1);
     opacity: 1;
   }
 }
+
 @keyframes scale-fade2 {
   from {
     transform: scale(5);
     opacity: 0;
   }
+
   to {
     transform: scale(1);
     opacity: 1;
   }
 }
+
 .scale-fade {
   animation-name: scale-fade;
   animation-duration: 2s;
   animation-fill-mode: forwards;
 }
+
 .scale-fade4 {
   animation-name: scale-fade;
   animation-duration: 4s;
   animation-fill-mode: forwards;
 }
+
 .scale-fade2 {
   animation-name: scale-fade2;
   animation-duration: 2s;
   animation-fill-mode: forwards;
 }
+
 .finite-blink-div {
   animation-name: blink;
   animation-iteration-count: 3;
 }
+
 .blink-div {
   animation-name: blink;
   animation-duration: 3s;
   animation-iteration-count: infinite;
 }
+
 .img-fade-div {
   animation-name: image-fade;
   animation-iteration-count: 1;
   animation-duration: 1s;
 }
+
 .img-fade-div4 {
   animation-name: image-fade;
   animation-iteration-count: 1;
   animation-duration: 4s;
 }
+
 .fade-reverse-div {
   animation-name: fade;
   animation-duration: 4s;
   animation-direction: reverse;
 }
+
 .fade-alternate-div {
   animation-name: fade;
   animation-duration: 4s;
   animation-direction: reverse;
 }
+
 .fade-alternate-reverse-div {
   animation-name: fade;
   animation-duration: 4s;
   animation-direction: alternate-reverse;
 }
+
 #div-linear {
   animation-timing-function: linear;
 }
+
 #div-ease {
   animation-timing-function: ease;
 }
+
 #div-ease-in {
   animation-timing-function: ease-in;
 }
+
 #div-ease-out {
   animation-timing-function: ease-out;
 }
+
 #div-ease-in-out {
   animation-timing-function: ease-in-out;
 }

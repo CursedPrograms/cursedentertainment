@@ -15,23 +15,29 @@
     transform: scale(0.8);
     opacity: 0;
   }
+
   to {
     transform: scale(1);
     opacity: 1;
   }
 }
+
 @font-face {
   font-family: 'Futura';
   src: url('https://fonts.googleapis.com/css?family=Futura');
 }
-html, body {
+
+html,
+body {
   height: 100%;
 }
+
 html {
-   scrollbar-width: thin;
+  scrollbar-width: thin;
   scrollbar-color: #007ab7 #eee;
   scroll-behavior: smooth;
 }
+
 * {
   font-family: Futura, sans-serif;
   font-weight: lighter;
@@ -54,6 +60,7 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: #005184;
 }
+
 body {
   z-index: 0;
   background-color: #007ab7;
@@ -66,27 +73,33 @@ h1 {
   font-weight: bold;
   text-align: center;
 }
+
 p {
   text-align: left;
 }
+
 h2 {
   font-weight: bold;
   text-align: center;
 }
+
 ul {
   list-style: none;
   align-items: center;
   text-align: left;
 }
+
 strong {
   text-align: center;
 }
+
 a {
   color: #fff;
   font-size: 20px;
   text-decoration: none;
   padding-bottom: 2%;
 }
+
 li {
   align-content: center;
   text-align: left;
