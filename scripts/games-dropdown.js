@@ -2,6 +2,8 @@ document.addEventListener('DOMContentLoaded', function () {
   console.log('DOMContentLoaded event fired');
   const gameSelectorDiv = document.createElement('div');
   gameSelectorDiv.id = 'game-selector';
+  gameSelectorDiv.style.display = 'flex';  // Set display to flex
+  gameSelectorDiv.style.flexDirection = 'column';  // Set flex-direction to column
 
   const form = document.createElement('form');
   const selectElement = document.createElement('select');
