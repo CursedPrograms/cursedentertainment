@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="../styles/main-style.css" rel="stylesheet" type="text/css">
-<link href="../styles/404-style.css" rel="stylesheet" type="text/css">
-<title>500 - Internal Server Error</title>
-</head>
-<body>
-<div class="container">
-  <h1>500 - Internal Server Error</h1>
-  <div id="errorMessageContainer"></div>
-</div>
-<footer id="dynamicFooter"></footer>
-<script src="../scripts/footer.js"></script>
-</body>
-</html>
+document.addEventListener("DOMContentLoaded", function() {
+    var errorMessageContainer = document.getElementById("errorMessageContainer");
+    var errorMessageParagraph = document.createElement("p");
+    errorMessageParagraph.textContent = "Sorry, something went wrong on our end. We're working to fix it as soon as possible.";
+    errorMessageContainer.appendChild(errorMessageParagraph);
+});
