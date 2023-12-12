@@ -18,21 +18,23 @@
 </head>
 
 <body>
-  <div class="twittercontainer">
-    <div id="twitter-timeline"> <a class="twitter-timeline" data-width="500" data-height="600" data-theme="light"
-        href="https://twitter.com/NorowaretaGemu">Tweets by NorowaretaGemu</a> </div>
+  <div class="fixed-divs">
+    <div class="twittercontainer">
+      <div id="twitter-timeline"> <a class="twitter-timeline" data-width="500" data-height="600" data-theme="light"
+          href="https://twitter.com/NorowaretaGemu">Tweets by NorowaretaGemu</a> </div>
+    </div>
+    <div id="discord">
+      <iframe src="https://discord.com/widget?id=1026143766010138714&theme=dark" width="300" height="500"
+        allowtransparency="true" frameborder="0"
+        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+    </div>
+    <div class="qr-container">
+      <div id="qr-code"> <a href="https://linktr.ee/cursedentertainment"> <img src="../images/qr-codes/cursed-qr.jpg"
+            alt="QR Code" width="150" height="150"></a></div>
+    </div>
   </div>
-  <div id="discord">
-    <iframe src="https://discord.com/widget?id=1026143766010138714&theme=dark" width="300" height="500"
-      allowtransparency="true" frameborder="0"
-      sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-  </div>
-  <div class="qr-container">
-    <div id="qr-code"> <a href="https://linktr.ee/cursedentertainment"> <img src="../images/qr-codes/cursed-qr.jpg"
-          alt="QR Code" width="150" height="150"></a></div>
-  </div>
-  <iframe src="../header/header.html" width="100%" height="300px" frameborder="0" allowfullscreen></iframe>
   <div class="home-content">
+    <iframe src="../header/header.html" style="width: 100%; height: 300px; border: none;" allowfullscreen></iframe>
     <div class="content">
       <div id="game-selector">
         <script src="../scripts/games-dropdown.js"></script>

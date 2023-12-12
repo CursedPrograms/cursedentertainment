@@ -1,18 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<link href="../header/styles/header-style.css" rel="stylesheet" type="text/css">
-<link href="../header/styles/horizontal-menu-style.css" rel="stylesheet" type="text/css">
-<link href="../styles/main-style.css" rel="stylesheet" type="text/css">
+  <link href="../styles/main-style.css" rel="stylesheet" type="text/css">
+  <link href="../header/styles/header-style.css" rel="stylesheet" type="text/css">
+  <link href="../header/styles/horizontal-menu-style.css" rel="stylesheet" type="text/css">
 </head>
-<div class="header_container">
-    <div class="header_img"> <img src="../images/logos/cursed-logo.png" alt="CursedEntertainment Logo" width="277"
-          height="149"> </div>
-    <div class="horizontal-menu"> <br>
+
+<body>
+  <div class="header_container">
+    <div class="header_logo">
+      <img src="../images/spr_cursedLogo.png" alt="CursedEntertainment Logo" width="138.5" height="74.5">
+    </div>
+    <div class="horizontal-menu">
       <ul>
         <li><a href="../pages/home.html">Home</a></li>
-        <li><a href="../pages/games.html">Tools</a></li>
+        <li><a href="../pages/games.html">Games</a></li>
         <li><a href="../pages/tools.html">Tools</a></li>
         <li><a href="https://cursed-arcade.netlify.app">Cursed Arcade</a></li>
-        <li><a href="../pages/soundtracks.html">Music</a></li>
         <li><a href="../pages/stories.html">Stories</a></li>
         <li><a href="https://cursedentertainment.indie.af/">GJ Portfolio</a></li>
         <li><a href="https://cursed-entertainment.itch.io/">itch.io</a></li>
@@ -20,3 +25,15 @@
       </ul>
     </div>
   </div>
+  <script>
+    const selectElement = document.querySelector('#music');
+    if (selectElement) {
+      selectElement.addEventListener('change', (event) => {
+        const url = event.target.value;
+        window.location.href = url;
+      });
+    }
+  </script>
+</body>
+
+</html>
