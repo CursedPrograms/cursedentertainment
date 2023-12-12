@@ -1,15 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
   console.log('DOMContentLoaded event fired');
-  const parentDiv = document.createElement('div');  // Create a parent div
-  parentDiv.style.display = 'flex';  // Set display to flex
-  parentDiv.style.justifyContent = 'center';  // Center horizontally
-  parentDiv.style.alignItems = 'center';  // Center vertically
-  document.body.appendChild(parentDiv);  // Append the parent div to the body
+  const parentDiv = document.createElement('div');
+  parentDiv.style.display = 'flex';
+  parentDiv.style.justifyContent = 'center';
+  parentDiv.style.alignItems = 'center';
+  document.body.appendChild(parentDiv);
 
   const gameSelectorDiv = document.createElement('div');
-  gameSelectorDiv.id = 'game-selector';
-  gameSelectorDiv.style.display = 'flex';  // Set display to flex
-  gameSelectorDiv.style.flexDirection = 'column';  // Set flex-direction to column
+  gameSelectorDiv.style.display = 'flex';
+  gameSelectorDiv.style.flexDirection = 'column';
 
   const form = document.createElement('form');
   const selectElement = document.createElement('select');
@@ -46,5 +45,5 @@ document.addEventListener('DOMContentLoaded', function () {
 
   form.appendChild(selectElement);
   gameSelectorDiv.appendChild(form);
-  parentDiv.appendChild(gameSelectorDiv);  // Append the gameSelectorDiv to the parent div
+  parentDiv.appendChild(gameSelectorDiv);
 });
