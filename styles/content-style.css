@@ -19,7 +19,7 @@
           text-align: center;
           align-items: center;
           align-content: center;
-          display: inline-block; 
+          display: inline-block;
         }
 
         .container iframe {
@@ -43,18 +43,21 @@
           width: 80%;
           padding-bottom: 2%;
         }
+
         .grid {
           display: grid;
           grid-template-columns: repeat(3, 1fr);
           grid-gap: 10px;
           width: 100%;
         }
+
         .grid-item {
           width: 100%;
           padding-bottom: 100%;
           position: relative;
           overflow: hidden;
         }
+
         .grid-item img {
           position: absolute;
           top: 0;

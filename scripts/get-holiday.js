@@ -24,6 +24,6 @@ function imageExists(url) {
     http.send();
     return http.status !== 404;
 }
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     setHolidayHeader();
 });

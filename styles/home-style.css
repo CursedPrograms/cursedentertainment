@@ -3,7 +3,9 @@
 @import url('../styles/discord-style.css');
 
 @media only screen and (max-width: 1080px) {
-  #twitter-timeline, #discord {
+
+  #twitter-timeline,
+  #discord {
     display: none;
   }
 
@@ -15,10 +17,10 @@
   margin: 0 auto;
   text-align: center;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
   flex-direction: column;
   padding-bottom: 2%;
-  background-color: transparent;  
+  background-color: transparent;
   width: 80%;
 }
 
@@ -46,5 +48,3 @@
   padding-left: 1%;
   z-index: 2;
 }
-
-
