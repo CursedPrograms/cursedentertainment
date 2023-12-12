@@ -30,6 +30,8 @@ html, body {
   height: 100%;
 }
 html {
+   scrollbar-width: thin;
+  scrollbar-color: #007ab7 #eee;
   scroll-behavior: smooth;
 }
 * {
@@ -37,12 +39,9 @@ html {
   font-weight: lighter;
   letter-spacing: 3px;
 }
+
 ::-webkit-scrollbar {
   width: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #005184;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -52,6 +51,10 @@ html {
 
 ::-webkit-scrollbar-track {
   background: #eee;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #005184;
 }
 body {
   z-index: 0;
