@@ -1,0 +1,15 @@
+@import url('https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/styles/icon-style.css');
+
+.icons_container {
+    vertical-align: middle;
+    display: flex; 
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+  }
+  
+  .icons_container iframe{
+    width: 100%;
+  }

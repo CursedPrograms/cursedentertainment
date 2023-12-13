@@ -1,0 +1,21 @@
+#qr-code {
+  padding-top: 1%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 218px;
+  list-style: none;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1%;
+  z-index: 4;
+  height: 0%;
+}
+.qr-container {
+  max-width: 30px;
+  text-align: right;
+  display: block;
+}
