@@ -1,5 +1,5 @@
 select {
-	text-align: center;
+  text-align: center;
   width: 400px;
   height: 40px;
   background-color: #007ab7;
@@ -14,16 +14,17 @@ select {
   flex-grow: 1;
   display: flex;
 }
+
 select option {
-	text-align: center;
-	font-size: small;
+  text-align: center;
+  font-size: small;
   background-color: #007ab7;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin-bottom: 16px;
 }
+
 select option:hover {
   background-color: #f088e9;
 }
-

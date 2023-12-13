@@ -4,36 +4,43 @@
   justify-content: center;
   align-items: center;
 }
+
 .box1 {
   width: 20rem;
   height: 20rem;
   background-color: #007ab7;
 }
+
 .box2 {
   width: 20rem;
   height: 20rem;
   background-color: #f088e9;
 }
+
 .box3 {
   width: 20rem;
   height: 20rem;
   background-color: #007ab7;
 }
+
 .box4 {
   width: 20rem;
   height: 20rem;
   background-color: #f088e9;
 }
+
 .box5 {
   width: 20rem;
   height: 20rem;
   background-color: #007ab7;
 }
+
 .box6 {
   width: 20rem;
   height: 20rem;
   background-color: #f088e9;
 }
+
 .scoll-container {
   width: 20rem;
   height: 20rem;
@@ -42,6 +49,7 @@
   overflow-x: scroll;
   scroll-snap-type: x proximity;
 }
+
 .scoll-container div {
   min-width: 20rem;
   display: flex;
