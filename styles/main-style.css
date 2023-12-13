@@ -1,10 +1,9 @@
 @charset "utf-8";
 
+@import url('../styles/header-container.css');
 @import url('../styles/animations-style.css');
 @import url('../styles/banner-ad-style.css');
 @import url('../styles/footer-style.css');
-@import url('../styles/header-style.css');
-@import url('../styles/horizontal-menu-style.css');
 @import url('../styles/icons-container-style.css');
 @import url('../styles/online-buttons-style.css');
 @import url('../styles/video-style.css');

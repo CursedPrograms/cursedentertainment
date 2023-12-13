@@ -1,0 +1,15 @@
+.header_container {
+    padding-top: 2%;
+    max-height: 230px;
+    min-width: 100%;    
+    position: fixed;
+    top: -24px;
+    background-color: #007ab7;
+    border-bottom: thin inset #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    z-index: 3;
+  }
+  
