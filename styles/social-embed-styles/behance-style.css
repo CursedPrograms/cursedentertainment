@@ -1,0 +1,17 @@
+.behance-embed {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+.behance-embed iframe {
+    width: 100%;
+    height: 316px;
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.behance-embed:hover iframe {
+    transform: scale(1.1);
+}
