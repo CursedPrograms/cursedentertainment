@@ -59,6 +59,7 @@
         }
 
         .grid-item img {
+          border: thin solid #34A9E3;
           position: absolute;
           top: 0;
           left: 0;

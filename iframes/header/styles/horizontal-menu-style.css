@@ -40,16 +40,16 @@
   padding-right: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
-  background-color: #168FCC;
+  background-color: #007AB7;
   border-radius: 10px / 5px;
   border: thin solid #FFFFFF;
   font-size: medium;
+  text-decoration: none;
 }
 
 .horizontal-menu li a:hover {
-  background-color: #f088e9;
-  -webkit-box-shadow: 0px 0px 16px 1px #FFFFFF;
-  box-shadow: 0px 0px 16px 1px #FFFFFF;
+  background-color: #103345;
+  border: thin solid #34A9E3;
 }
 
 .horizontal-menu ul {

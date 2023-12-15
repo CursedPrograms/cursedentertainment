@@ -20,6 +20,11 @@
 html,
 body {
   height: 100%;
+  z-index: 0;
+  background-color: #007ab7;
+  color: #fff;
+  display: block;
+  align-items: center;
 }
 
 html {
@@ -47,14 +52,6 @@ html {
 
 ::-webkit-scrollbar-track {
   background: #eee;
-}
-
-body {
-  z-index: 0;
-  background-color: #007ab7;
-  color: #fff;
-  display: block;
-  align-items: center;
 }
 
 h1 {

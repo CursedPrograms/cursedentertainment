@@ -13,10 +13,12 @@ body {
 }
 
 form select {
+    color: #ffffff;
     width: 200px;
     padding: 10px;
     font-size: medium;
-    border: 1px solid #007ab7;
+    border: 1px solid #ffffff;
+    background-color: #007AB7;
     border-radius: 5px;
     margin-top: 10px;
     cursor: pointer;
@@ -28,5 +30,7 @@ form select::-webkit-select {
 }
 
 form select:hover {
-    border-color: #f088e9;
+    background-color: #103345;
+    border: thin solid #34A9E3;
 }
+
