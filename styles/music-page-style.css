@@ -30,7 +30,7 @@
 
 .album-container {
   text-align: left;
-  
+
   width: 30%;
   display: flex;
   flex-direction: column;
@@ -43,10 +43,7 @@
   border-radius: 41px / 30px;
   background-color: #FFFFFF;
   color: #FFFFFF;
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 122, 183, 1.00) 0%, rgba(254, 70, 231, 1.00) 100%);
-  background-image: -moz-linear-gradient(270deg, rgba(0, 122, 183, 1.00) 0%, rgba(254, 70, 231, 1.00) 100%);
-  background-image: -o-linear-gradient(270deg, rgba(0, 122, 183, 1.00) 0%, rgba(254, 70, 231, 1.00) 100%);
-  background-image: linear-gradient(180deg, rgba(0, 122, 183, 1.00) 0%, rgba(254, 70, 231, 1.00) 100%);
+
   -webkit-box-shadow: 6px 7px 6px 3px #00547E;
   box-shadow: 6px 7px 6px 3px #00547E;
   padding-top: 50px;
@@ -54,9 +51,12 @@
   margin: 0.5%;
 }
 
-.album-container iframe{
+.album-container iframe {
   height: 300px;
-  width: 100%;
+  width: 80%;
+  padding-top: 5%;
+  border-radius: inherit;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .albumcover {
@@ -67,4 +67,41 @@
   justify-content: center;
   width: "150px";
   height: "150px";
+}
+
+.album-container {
+  background-color: #007ab7;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.album-info {
+  padding: 5%;
+  text-align: center;
+  align-content: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: inherit;
+  border-radius: inherit;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.album-info h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.album-info li {
+  list-style: none; 
+  margin-bottom: 5px;
+}
+
+
+.album-info img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
