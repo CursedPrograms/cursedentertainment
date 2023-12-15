@@ -1,0 +1,20 @@
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+}
+
+p {
+    color: #cfcfcf;
+}
+
+i {
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

@@ -15,6 +15,7 @@
 }
 
 .icon-container a {
+  align-content: center;
   white-space: nowrap;
   overflow: hidden;
 }
@@ -55,3 +56,4 @@
     transform: scale(var(--min-size));
   }
 }
+
