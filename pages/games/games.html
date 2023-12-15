@@ -8,12 +8,28 @@
   <link href="../../styles/content-style.css" rel="stylesheet" type="text/css">
   <link href="../../styles/main-style.css" rel="stylesheet" type="text/css">
   <meta charset="UTF-8">
+  <style>
+    .webgl-game {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      overflow: hidden;
+      height: 100vh;
+    }
+
+    .webgl-game iframe {
+      overflow: hidden;
+      width: 80%;
+      height: 100%;
+    }
+  </style>
 </head>
 
 <body>
   <div class="content">
-
-    <div class="header_container">
+    <div class="header_container" width="100vw">
       <iframe src="../../iframes/header/page-headers/games-header.html" frameborder="0" width="100%"
         height="500px"></iframe>
     </div>
@@ -21,7 +37,7 @@
       <div class="online-buttons">
         <li><a href="https://arise-mexzmiriah.netlify.app/">Arise Mexzmiriah Online</a></li>
         <li><a href="https://mirror-macabre.netlify.app">Mirror Macabre Online</a></li>
-      </div>      
+      </div>
       <iframe frameborder="0"
         src="https://itch.io/embed/1593914?border_width=0&amp;bg_color=007ab7&amp;fg_color=ffffff&amp;link_color=f088e9&amp;border_color=ffffff"
         width="550" height="165"><a href="https://cursed-entertainment.itch.io/araknia">Araknia by Cursed</a></iframe>
@@ -46,12 +62,21 @@
         width="550" height="165"><a href="https://cursed-entertainment.itch.io/nystylla-mexzmiriah">Nystylla: Mexzmiriah
           by Cursed</a></iframe>
     </div>
-  </div>
-  <div class="icons_container" width="100%"><iframe src="../../iframes/social-media-icons/social-media-icons.html" frameborder="0"
-    width="100%"></iframe></div>
-  <footer id="dynamicFooter"></footer>
-  <script src="../../scripts/footer.js"></script>
-  <script src="../../scripts/games-dropdown.js"></script>
+    <button id="loadButton" onclick="loadIframe()" width="100%">Load Iframe</button></div>
+  </div>  
+  <div class="webgl-game" width="100%"><iframe id="webglFrame" frameborder="0" allowfullscreen></iframe>
+
+    <div class="icons_container" width="100%"><iframe src="../../iframes/social-media-icons/social-media-icons.html"
+        frameborder="0" width="100%"></iframe></div>
+    <footer id="dynamicFooter"></footer>
+    <script src="../../scripts/footer.js"></script>
+    <script src="../../scripts/games-dropdown.js"></script>
+    <script>
+      function loadIframe() {
+        var iframe = document.getElementById('webglFrame');
+        iframe.src = 'https://arise-mexzmiriah.netlify.app/';
+      }
+    </script>
 </body>
 
 </html>
