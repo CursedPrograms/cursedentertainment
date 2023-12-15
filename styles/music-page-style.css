@@ -54,6 +54,11 @@
   margin: 0.5%;
 }
 
+.album-container iframe{
+  height: 300px;
+  width: 100%;
+}
+
 .albumcover {
   min-width: 100%;
   align-content: center;
