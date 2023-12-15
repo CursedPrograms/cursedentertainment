@@ -1,6 +1,6 @@
 @import url('../styles/qr-code-style');
-@import url('../styles/twitter-style');
-@import url('../styles/discord-style.css');
+@import url('../styles/social-embed-styles/twitter-style');
+@import url('../styles/social-embed-styles/discord-style.css');
 
 @media only screen and (max-width: 1080px) {
   #twitter-timeline,

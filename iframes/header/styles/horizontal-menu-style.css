@@ -25,6 +25,12 @@
   margin-bottom: 16px;
 }
 
+.horizontal-menu{
+  width: 100vw;
+  
+  overflow: hidden;
+}
+
 .horizontal-menu li a {
   width: 160px;
   flex-grow: 1;

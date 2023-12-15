@@ -12,18 +12,6 @@
 @import url('../styles/video-style.css');
 @import url('../styles/webgl-style.css');
 
-@keyframes logo-anim {
-  from {
-    transform: scale(0.8);
-    opacity: 0;
-  }
-
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
 @font-face {
   font-family: 'Futura';
   src: url('https://fonts.googleapis.com/css?family=Futura');

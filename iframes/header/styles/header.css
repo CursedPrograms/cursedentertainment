@@ -1,0 +1,10 @@
+body{
+    height: 100%;
+    overflow: hidden;
+}
+
+* {
+    font-family: Futura, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 3px;
+  }
