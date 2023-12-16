@@ -1,0 +1,59 @@
+:root {
+  --min-size: 0.7;
+  --max-size: 0.8;
+}
+
+.icon-container {
+  align-self: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  border: none;
+}
+
+.icon-container a {
+  align-content: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.icon-container img {
+  animation-name: icon-fade;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  padding: 10px;
+  display: block;
+  box-sizing: border-box;
+  width: calc(60% * var(--max-size));
+  height: auto;
+  border: none; 
+}
+
+.icon-container img:hover {
+  animation-name: icon-shrink;
+  animation-duration: 0.5s;
+}
+
+@keyframes icon-fade {
+  from {
+    transform: scale(var(--min-size));
+    opacity: 0.5;
+  }
+  to {
+    transform: scale(var(--max-size));
+    opacity: 1;
+  }
+}
+
+@keyframes icon-shrink {
+  from {
+    transform: scale(var(--max-size));
+  }
+  to {
+    transform: scale(var(--min-size));
+  }
+}
+

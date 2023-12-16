@@ -33,7 +33,7 @@
   padding-right: 15px;
   padding-bottom: 15px;
   padding-left: 15px;
-  background-color: #168FCC;
+  background-color: #007AB7;
   border-radius: 10px / 5px;
   width: 300px;
   border: thin solid #FFFFFF;
@@ -42,8 +42,8 @@
 }
 
 .online-buttons li a:hover {
-  background-color: #f088e9;
-  border: thin solid #FFFFFF;
+  background-color: #103345;
+  border: thin solid #34A9E3;
   border-radius: 8px / 4px;
   opacity: 1;
   color: #FFFFFF;
@@ -56,6 +56,4 @@
   font-size: medium;
   height: 10px;
   text-align: center;
-  -webkit-box-shadow: 0px 0px 16px 1px #FFFFFF;
-  box-shadow: 0px 0px 16px 1px #FFFFFF;
 }

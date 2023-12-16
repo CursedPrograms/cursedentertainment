@@ -20,33 +20,63 @@
   align-items: flex-start;
   display: flex;
   align-content: center;
+  flex-basis: calc(33.33% - 40px);
   flex-wrap: wrap;
   text-align: center;
   gap: 2%;
-  padding-bottom: 1%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 70vw;
 }
 
 .album-container {
   text-align: left;
-  flex-basis: calc(33.33% - 40px);
+  width: 30%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-content: center;
   justify-content: center;
   min-height: 40%;
   max-width: 2000px;
-  border: thin solid #FFFFFF;
-  border-radius: 41px / 30px;
-  background-color: #FFFFFF;
-  color: #FFFFFF;
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 122, 183, 1.00) 0%, rgba(254, 70, 231, 1.00) 100%);
-  background-image: -moz-linear-gradient(270deg, rgba(0, 122, 183, 1.00) 0%, rgba(254, 70, 231, 1.00) 100%);
-  background-image: -o-linear-gradient(270deg, rgba(0, 122, 183, 1.00) 0%, rgba(254, 70, 231, 1.00) 100%);
-  background-image: linear-gradient(180deg, rgba(0, 122, 183, 1.00) 0%, rgba(254, 70, 231, 1.00) 100%);
+  color: #FFFFFF;  
+  background-color: #007ab7;
+  border: thin solid #f088e9;
+  border-radius: 41px / 30px;  
+  border-radius: 10px;
+  overflow: hidden;
   -webkit-box-shadow: 6px 7px 6px 3px #00547E;
   box-shadow: 6px 7px 6px 3px #00547E;
   padding-top: 50px;
-  margin-top: 2%;
+  padding-bottom: 50px;
+  margin: 0.5%;
+}
+
+.album-container iframe {
+  margin-top: auto;
+  background-color: #19526E;
+  border: thin solid #FFFFFF;
+  height: 300px;
+  width: 80%;
+  border-radius: inherit;
+  -webkit-box-shadow: 6px 7px 6px 3px #00547E;
+  box-shadow: 6px 7px 6px 3px #00547E;
+}
+
+.album-info {
+  color: #FFFFFF;
+  background-color: #19526E;
+  border: thin solid #FFFFFF;
+  padding: 1%;
+  text-align: center;
+  align-content: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: inherit;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 6px 7px 6px 3px #00547E;
+  box-shadow: 6px 7px 6px 3px #00547E;
 }
 
 .albumcover {
@@ -57,4 +87,33 @@
   justify-content: center;
   width: "150px";
   height: "150px";
+}
+
+.album-info h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.album-info li {
+  list-style: none; 
+  margin-bottom: 5px;
+}
+
+
+.album-info img {
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.album-container {
+  transition: transform 0.3s ease-in-out;
+  border: thin solid #34A9E3;
+}
+
+.album-container:hover {
+  transform: scale(1.05); 
+  border: thin solid #FFFFFF;
 }

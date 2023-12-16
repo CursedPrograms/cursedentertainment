@@ -1,30 +1,31 @@
 select {
-  text-align: center;
   width: 400px;
   height: 40px;
+  font-size: small;
+  text-align: center;
   background-color: #007ab7;
   color: #fff;
-  border-radius: 10px / 5px;
   border: thin solid #FFFFFF;
-  font-size: small;
+  border-radius: 10px / 5px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   cursor: pointer;
-  flex-grow: 1;
   display: flex;
+  flex-grow: 1;
 }
 
 select option {
-  text-align: center;
   font-size: small;
+  text-align: center;
   background-color: #007ab7;
+  margin-bottom: 16px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin-bottom: 16px;
 }
 
 select option:hover {
   background-color: #f088e9;
 }
+

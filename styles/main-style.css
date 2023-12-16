@@ -1,28 +1,13 @@
 @charset "utf-8";
 
-@import url('../styles/animations-style.css');
-@import url('../styles/online-buttons-style.css');
-@import url('../styles/footer-style.css');
-@import url('../styles/icons-container-style.css');
-@import url('../styles/header-style.css');
-@import url('../styles/online-buttons-style.css');
-@import url('../styles/webgl-style.css');
-@import url('../styles/horizontal-menu-style.css');
-@import url('../styles/banner-ad-style.css');
-@import url('../styles/video-style.css');
-@import url('../styles/webgl-style.css');
-
-@keyframes logo-anim {
-  from {
-    transform: scale(0.8);
-    opacity: 0;
-  }
-
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
+@import url('animations-style.css');
+@import url('footer-style.css');
+@import url('icons-container-style.css');
+@import url('header-style.css');
+@import url('banner-ad-style.css');
+@import url('video-style.css');
+@import url('webgl-style.css');
+@import url('mobile-style.css');
 
 @font-face {
   font-family: 'Futura';
@@ -32,6 +17,11 @@
 html,
 body {
   height: 100%;
+  z-index: 0;
+  background-color: #007ab7;
+  color: #fff;
+  display: block;
+  align-items: center;
 }
 
 html {
@@ -59,14 +49,6 @@ html {
 
 ::-webkit-scrollbar-track {
   background: #eee;
-}
-
-body {
-  z-index: 0;
-  background-color: #007ab7;
-  color: #fff;
-  display: block;
-  align-items: center;
 }
 
 h1 {

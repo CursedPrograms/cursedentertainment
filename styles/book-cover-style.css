@@ -1,0 +1,12 @@
+#container {
+    padding-top: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.scale-fade img{
+    width: 80%;
+    border-radius: 5%;
+    border: thin solid #34A9E3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}

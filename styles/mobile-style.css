@@ -1,0 +1,10 @@
+.mobile-hide {
+    width: 100%;
+    display: block; 
+  }
+  
+  @media (max-width: 767px) {
+    .mobile-hide {
+      display: none; 
+    }
+  }
