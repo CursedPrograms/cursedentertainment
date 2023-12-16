@@ -1,3 +1,11 @@
+@import url('../styles/horizontal-menu-style.css');
+
+* {
+  font-family: Futura, sans-serif;
+  font-weight: lighter;
+  letter-spacing: 3px;
+}
+
 .horizontal-menu {
   color: #FFFFFF;
   list-style: none;
@@ -11,6 +19,16 @@
   max-height: 60px;
   line-height: 10px;
   text-align: center;
+}
+
+.horizontal-menu li a:hover {
+  background-color: #103345;
+  border: thin solid #34A9E3;
+}
+
+.horizontal-menu ul {
+  display: flex;
+  flex-direction: row;
 }
 
 .horizontal-menu li {
@@ -45,14 +63,15 @@
   border: thin solid #FFFFFF;
   font-size: medium;
   text-decoration: none;
+
 }
 
-.horizontal-menu li a:hover {
-  background-color: #103345;
-  border: thin solid #34A9E3;
-}
+@media (max-width: 767px) {
+  .horizontal-menu li {
+    margin-bottom: 8px;
+  }
 
-.horizontal-menu ul {
-  display: flex;
-  flex-direction: row;
+  .horizontal-menu li a {
+    width: auto;
+  }
 }

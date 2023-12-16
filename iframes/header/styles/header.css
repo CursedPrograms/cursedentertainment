@@ -6,12 +6,6 @@ body {
     align-items: center;
 }
 
-* {
-    font-family: Futura, sans-serif;
-    font-weight: lighter;
-    letter-spacing: 3px;
-}
-
 form select {
     color: #ffffff;
     width: 200px;
