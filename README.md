@@ -25,8 +25,8 @@ Visit the live website: [Cursed Entertainment](https://cursedprograms.github.io/
 - **styles:** Holds CSS files for styling the website.
 - **404.html:** Custom 404 error page.
 - **500.html:** Custom 500 error page.
-- **index.html:** Main landing page.
-- **index.js:** JavaScript file for the main landing page.
+- **index.html:** Main landing page (Adobe Animate).
+- **index.js:** JavaScript file for the main landing page (Adobe Animate).
 - **redirect.html:** Page for managing redirects.
 
 ## Technologies Used
