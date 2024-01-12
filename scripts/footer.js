@@ -5,7 +5,7 @@ linkElement.textContent = '呪われた エンターテイメント';
 linkElement.style.fontStyle = 'italic';
 const lineBreakElement = document.createElement('br');
 const copyrightNotice = document.createElement('span');
-copyrightNotice.textContent = '© Cursed Entertainment 2023';
+copyrightNotice.textContent = '© Cursed Entertainment 2024';
 copyrightNotice.style.fontStyle = 'italic';
 copyrightNotice.style.fontSize = 'small';
 footerElement.appendChild(linkElement);
