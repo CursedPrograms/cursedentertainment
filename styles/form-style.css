@@ -85,6 +85,7 @@ h1 {
     box-shadow: 0 0 10px var(--color-shadow);
     border-radius: 5px;
     max-height: 200px;
+    min-height: 100px;
     overflow-y: auto;
     border: 1px solid #ccc;
 }
