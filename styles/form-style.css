@@ -81,7 +81,7 @@ h1 {
     margin: 20px auto;
     padding: 20px;
     color: var(--color-text);
-    background-color: var(--color-secondary);
+    background-color: var(--color-primary);
     box-shadow: 0 0 10px var(--color-shadow);
     border-radius: 5px;
     max-height: 200px;
