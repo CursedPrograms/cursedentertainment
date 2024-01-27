@@ -1,0 +1,49 @@
+.img {
+    filter: blur(10px);
+    transition: filter 0.8s ease;
+  }
+  
+  .img.unblur {
+    padding-top: 5%;
+    filter: none;
+  }
+  
+  .image-container {
+    padding: 1%;
+  }
+  
+  .age-verification {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 5%;
+  }
+
+  button {
+    background-color: var(--color-tertiary);
+    font-family: Futura, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    -webkit-border-top-left-radius: 40px;
+    -webkit-border-top-right-radius: 40px;
+    -webkit-border-bottom-right-radius: 40px;
+    -webkit-border-bottom-left-radius: 40px;
+    -moz-border-radius-topleft: 40px;
+    -moz-border-radius-topright: 40px;
+    -moz-border-radius-bottomright: 40px;
+    -moz-border-radius-bottomleft: 40px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+  }
+  
+  label {
+    font-family: Futura, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 3px;
+  }
