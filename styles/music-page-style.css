@@ -40,13 +40,13 @@
   min-height: 40%;
   max-width: 2000px;
   color: #FFFFFF;  
-  background-color: #007ab7;
-  border: thin solid #f088e9;
+  background-color: var(--color-secondary);
+  border: thin solid var(--color-tertiary);
   border-radius: 41px / 30px;  
   border-radius: 10px;
   overflow: hidden;
-  -webkit-box-shadow: 6px 7px 6px 3px #00547E;
-  box-shadow: 6px 7px 6px 3px #00547E;
+  -webkit-box-shadow: 6px 7px 6px 3px var(--color-primary-dark);
+  box-shadow: 6px 7px 6px 3px var(--color-primary-dark);
   padding-top: 50px;
   padding-bottom: 50px;
   margin: 0.5%;
@@ -54,18 +54,18 @@
 
 .album-container iframe {
   margin-top: auto;
-  background-color: #19526E;
+  background-color: var(--color-primary-dark);
   border: thin solid #FFFFFF;
   height: 300px;
   width: 80%;
   border-radius: inherit;
-  -webkit-box-shadow: 6px 7px 6px 3px #00547E;
-  box-shadow: 6px 7px 6px 3px #00547E;
+  -webkit-box-shadow: 6px 7px 6px 3px var(--color-shadow);
+  box-shadow: 6px 7px 6px 3px var(--color-shadow);
 }
 
 .album-info {
   color: #FFFFFF;
-  background-color: #19526E;
+  background-color: var(--color-primary-dark);
   border: thin solid #FFFFFF;
   padding: 1%;
   text-align: center;
@@ -75,8 +75,8 @@
   padding: 20px;
   border-radius: inherit;
   margin-bottom: 20px;
-  -webkit-box-shadow: 6px 7px 6px 3px #00547E;
-  box-shadow: 6px 7px 6px 3px #00547E;
+  -webkit-box-shadow: 6px 7px 6px 3px var(--color-shadow);
+  box-shadow: 6px 7px 6px 3px var(--color-shadow);
 }
 
 .albumcover {
@@ -105,12 +105,12 @@
   max-width: 150px;
   height: auto;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 8px var(--color-shadow);
 }
 
 .album-container {
   transition: transform 0.3s ease-in-out;
-  border: thin solid #34A9E3;
+  border: thin solid var(--color-primary-light);
 }
 
 .album-container:hover {

@@ -1,7 +1,13 @@
 :root {
-    --color-primary: #005184;
-    --color-secondary: #007ab7;
-    --color-tertiary: #f088e9;
-    --color-accent: #168FCC;
-    --color-white: #fff;
-  }
+  --color-primary: #005184;
+  --color-primary_light: #34A9E3;
+  --color-primary_dark: #004067;
+  --color-secondary: #007ab7;
+  --color-tertiary: #f088e9;
+  --color-accent: #168FCC;
+  --color-white: #fff;
+  --color-grey: #868686;
+  --color-light-grey: #c2c2c2;
+  --color-shadow:  rgb(0, 23, 37);
+  --color-text: var(--color-white);
+}

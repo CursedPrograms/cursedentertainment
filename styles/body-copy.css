@@ -1,19 +1,24 @@
-h1, h2, h3, h4, h5, h6 {
-    color: #fff;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-text);
 }
 
 p {
-    color: #cfcfcf;
+    color: var(--color-light-grey);
 }
 
 i {
-    color: #fff;
+    color: var(--color-text);
 }
 
 .container {
     max-width: 800px;
     margin: auto;
-    background-color: #fff;
+    background-color: var(--color-white);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

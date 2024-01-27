@@ -3,8 +3,8 @@ select {
   height: 40px;
   font-size: small;
   text-align: center;
-  background-color: #007ab7;
-  color: #fff;
+  background-color: var(--color-secondary);
+  color: var(--color-text);
   border: thin solid #FFFFFF;
   border-radius: 10px / 5px;
   -webkit-appearance: none;
@@ -18,7 +18,7 @@ select {
 select option {
   font-size: small;
   text-align: center;
-  background-color: #007ab7;
+  background-color: var(--color-secondary);
   margin-bottom: 16px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -26,6 +26,5 @@ select option {
 }
 
 select option:hover {
-  background-color: #f088e9;
+  background-color: var(--color-tertiary);
 }
-

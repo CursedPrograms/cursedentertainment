@@ -2,7 +2,7 @@
   padding-top: 4%;
   max-height: 230px;
   min-width: 100%;
-  background-color: #007ab7;
+  background-color: var(--color-secondary);
   position: fixed;
   top: -24px;
   border-bottom: thin inset #FFFFFF;

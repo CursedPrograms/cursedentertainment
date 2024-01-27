@@ -8,43 +8,43 @@
 .box1 {
   width: 20rem;
   height: 20rem;
-  background-color: #007ab7;
+  background-color: var(--color-secondary);
 }
 
 .box2 {
   width: 20rem;
   height: 20rem;
-  background-color: #f088e9;
+  background-color: var(--color-tertiary);
 }
 
 .box3 {
   width: 20rem;
   height: 20rem;
-  background-color: #007ab7;
+  background-color: var(--color-secondary);
 }
 
 .box4 {
   width: 20rem;
   height: 20rem;
-  background-color: #f088e9;
+  background-color: var(--color-tertiary);
 }
 
 .box5 {
   width: 20rem;
   height: 20rem;
-  background-color: #007ab7;
+  background-color: var(--color-secondary);
 }
 
 .box6 {
   width: 20rem;
   height: 20rem;
-  background-color: #f088e9;
+  background-color: var(--color-tertiary);
 }
 
 .scoll-container {
   width: 20rem;
   height: 20rem;
-  background: white;
+  background: var(--color-text);
   display: flex;
   overflow-x: scroll;
   scroll-snap-type: x proximity;
@@ -56,6 +56,6 @@
   justify-content: center;
   align-items: center;
   font-size: 10rem;
-  color: white;
+  color: var(--color-text);
   scroll-snap-align: centre;
 }

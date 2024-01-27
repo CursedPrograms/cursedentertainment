@@ -20,13 +20,10 @@ html,
 body {
   height: 100%;
   z-index: 0;
-  background-color: #007ab7;
-  color: #fff;
-      margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: var(--color-secondary);
+  color: var(--color-text);
+  display: block;
+  align-items: center;
 }
 
 html {
@@ -44,11 +41,11 @@ html {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #005184;
+  background: var(--color-primary-dark);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #007ab7;
+  background: var(--color-secondary);
   border-radius: 5px;
 }
 
@@ -81,7 +78,7 @@ strong {
 }
 
 a {
-  color: #fff;
+  color: var(--color-text);
   font-size: 20px;
   text-decoration: none;
   padding-bottom: 2%;

@@ -3,18 +3,18 @@ html {
 }
 @keyframes blink {
   0% {
-    background-color: #f088e9;
+    background-color: var(--color-secondary);
   }
   100% {
-    background-color: #007ab7;
+    background-color: var(--color-primary);
   }
 }
 @keyframes fade {
   from {
-    background-color: #f088e9;
+    background-color: var(--color-tertiary);
   }
   to {
-    background-color: #007ab7;
+    background-color: var(--color-secondary);
   }
 }
 @keyframes image-fade {

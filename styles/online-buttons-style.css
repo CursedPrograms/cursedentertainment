@@ -33,7 +33,7 @@
   padding-right: 15px;
   padding-bottom: 15px;
   padding-left: 15px;
-  background-color: #007AB7;
+  background-color: var(--color-secondary);
   border-radius: 10px / 5px;
   width: 300px;
   border: thin solid #FFFFFF;
@@ -42,8 +42,8 @@
 }
 
 .online-buttons li a:hover {
-  background-color: #103345;
-  border: thin solid #34A9E3;
+  background-color: var(--color-primary-dark);
+  border: thin solid var(--color-primary-light);
   border-radius: 8px / 4px;
   opacity: 1;
   color: #FFFFFF;
