@@ -1,0 +1,94 @@
+body,
+.content,
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--color-white);
+    box-shadow: 0 0 10px var(--color-shadow);
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    color: var(--color-tertiary);
+}
+
+p,
+h1 {
+    text-align: center;
+}
+
+.uploaded-images {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.uploaded-images ul {
+    list-style: none;
+    display: inline-flex;
+    gap: 10px;
+    padding: 0;
+}
+
+.uploaded-images li {
+    flex: 0 0 auto;
+    box-sizing: border-box;
+}
+
+#message {
+    width: calc(100% - 80px);
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#messages {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    color: var(--color-text);
+    background-color: var(--color-secondary);
+    box-shadow: 0 0 10px var(--color-shadow);
+    border-radius: 5px;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+}
+
+#messages div {
+    background-color: var(--color-tertiary);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px var(--color-shadow);
+}
+
+#messages div strong {
+    color: var(--color-text);
+}

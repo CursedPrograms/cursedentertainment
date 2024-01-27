@@ -10,6 +10,7 @@
 @import url('video-style.css');
 @import url('webgl-style.css');
 @import url('mobile-style.css');
+@import url('form-style.css');
 
 @font-face {
   font-family: 'Futura';
