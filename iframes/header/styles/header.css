@@ -1,3 +1,7 @@
+@import url('horizontal-menu-style.css');
+@import url('header-logo-anim.css');
+@import url('../../../styles/header-style.css');
+
 body {
     height: 100%;
     overflow: hidden;
