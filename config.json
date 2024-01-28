@@ -1,3 +1,12 @@
 {
-
+  "WebsiteSettings": {
+    "Title": "Cursed Entertainment",
+    "Theme": "Cursed Default",
+    "Author": "Cursed",
+    "Description": "Website for Cursed Entertainment.",
+    "Homepage": "index.html",
+    "Navigation": {
+      "MenuItem": ["Index", "Home", "Tools", "Games", "Music"]
+    }
+  }
 }
