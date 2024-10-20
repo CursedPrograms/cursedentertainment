@@ -23,7 +23,7 @@
 
 <br>
 <div align="center">
-<a href="https://cursed-entertainment.itch.io/" target="_blank">
+<a href="https://cursedprograms.github.io/cursedentertainment/" target="_blank">
     <img src="https://github.com/CursedPrograms/cursedentertainment/raw/main/cursed-qr.png"
         alt="CursedEntertainment Logo" style="width:250px;">
 </a>
