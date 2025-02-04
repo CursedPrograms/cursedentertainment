@@ -41,7 +41,7 @@ Host files for Cursed Entertainment website. Visit the live website [here](https
 
 <br>
 <div align="center">
-© Cursed Entertainment
+© Cursed Entertainment 2025
 </div>
 <br>
 <div align="center">
