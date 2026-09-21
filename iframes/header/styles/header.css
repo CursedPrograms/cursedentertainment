@@ -31,3 +31,15 @@ form select:hover {
     border: thin solid #34A9E3;
 }
 
+
+
+@media (max-width: 767px) {
+  .header_img img {
+    width: 130px;
+    height: auto;
+  }
+
+  .horizontal-menu br {
+    display: none;
+  }
+}
