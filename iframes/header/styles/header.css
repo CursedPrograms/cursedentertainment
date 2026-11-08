@@ -43,3 +43,27 @@ form select:hover {
     display: none;
   }
 }
+
+/* Keep logo, menu and select at full size inside the short phone header */
+.horizontal-menu,
+.header_logo,
+.header_img,
+form {
+  flex-shrink: 0;
+}
+
+@media (max-width: 767px) {
+  .header_logo img {
+    width: 100px;
+    height: auto;
+  }
+
+  .header_logo {
+    margin-top: 6px;
+  }
+
+  form select {
+    margin-top: 2px;
+    padding: 6px 10px;
+  }
+}

@@ -22,7 +22,6 @@ form {
     margin: 20px auto;
     padding: 20px;
     background-color: var(--color-white);
-    box-shadow: 0 0 10px var(--color-shadow);
     border-radius: 5px;
 }
 
@@ -82,7 +81,6 @@ h1 {
     padding: 20px;
     color: var(--color-text);
     background-color: var(--color-primary);
-    box-shadow: 0 0 10px var(--color-shadow);
     border-radius: 5px;
     max-height: 200px;
     min-height: 100px;
@@ -95,7 +93,6 @@ h1 {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 5px var(--color-shadow);
 }
 
 #messages div strong {

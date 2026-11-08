@@ -57,3 +57,25 @@
   height: 10px;
   text-align: center;
 }
+
+/* Phones: stack the buttons instead of pushing them off screen */
+@media (max-width: 767px) {
+  .online-buttons {
+    width: 100%;
+    max-height: none;
+    flex-direction: column;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .online-buttons li {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .online-buttons li a,
+  .online-buttons li a:hover {
+    width: auto;
+    display: block;
+  }
+}

@@ -31,8 +31,8 @@
 <br>
 <div align="center">
 <a href="https://cursedprograms.github.io/cursedentertainment/" target="_blank">
-    <img src="https://github.com/CursedPrograms/cursedentertainment/raw/main/cursed-qr.png"
-        alt="CursedEntertainment Logo" style="width:250px;">
+    <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/qr-codes/site-qr.png"
+        alt="QR code to the Cursed Entertainment website" style="width:250px;">
 </a>
 </div>
 <br>
@@ -41,12 +41,12 @@ Host files for Cursed Entertainment website. Visit the live website [here](https
 
 <br>
 <div align="center">
-© Cursed Entertainment 2025
+© Cursed Entertainment 2026
 </div>
 <br>
 <div align="center">
 <a href="https://cursed-entertainment.itch.io/" target="_blank">
-    <img src="https://github.com/CursedPrograms/cursedentertainment/raw/main/images/logos/logo-wide-grey.png"
+    <img src="https://raw.githubusercontent.com/CursedPrograms/cursedentertainment/main/images/logos/logo-wide-grey.png"
         alt="CursedEntertainment Logo" style="width:250px;">
 </a>
 </div>
