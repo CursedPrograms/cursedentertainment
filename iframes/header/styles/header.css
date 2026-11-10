@@ -1,69 +1,78 @@
-@import url('horizontal-menu-style.css');
-@import url('header-logo-anim.css');
+/* header.css - the header iframe other sites embed: Cursed logo + menu. Solid colours only. */
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+html, body {
+  margin: 0;
+  background-color: #007ab7;
+  color: #fff;
+  font-family: Futura, "Trebuchet MS", sans-serif;
+  letter-spacing: .04em;
+  overflow: hidden;
+}
 
 body {
-    height: 100%;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0 6px;
 }
 
-form select {
-    color: #ffffff;
-    width: 200px;
-    padding: 10px;
-    font-size: medium;
-    border: 1px solid #ffffff;
-    background-color: #007AB7;
-    border-radius: 5px;
-    margin-top: 10px;
-    cursor: pointer;
+@keyframes flicker {
+  0%, 19%, 21%, 23%, 54%, 56%, 100% { opacity: 1; }
+  20%, 22%, 55% { opacity: .35; }
 }
 
-form select::-ms-expand,
-form select::-webkit-select {
-    display: none;
+@keyframes jitter {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(2px, -1px); }
 }
 
-form select:hover {
-    background-color: #103345;
-    border: thin solid #34A9E3;
+.header_img { line-height: 0; text-align: center; }
+.header_img img { width: 200px; height: auto; animation: flicker 9s infinite 1s; }
+.header_img a:hover img { animation: jitter .25s steps(2) infinite; }
+
+.horizontal-menu { width: 100%; overflow-x: auto; scrollbar-width: none; }
+.horizontal-menu::-webkit-scrollbar { display: none; }
+.horizontal-menu br { display: none; }
+
+.horizontal-menu ul {
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0 12px 6px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
 }
 
+.horizontal-menu a {
+  display: block;
+  white-space: nowrap;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 7px 14px;
+  border: 2px solid #fff;
+  border-radius: 999px;
+  background-color: #005184;
+  transition: transform .15s, background-color .15s, border-color .15s, color .15s;
+}
 
+.horizontal-menu a:hover, .horizontal-menu a:focus-visible {
+  background-color: #f088e9;
+  border-color: #f088e9;
+  color: #001725;
+  transform: translateY(-2px) rotate(-2deg);
+  outline: none;
+}
 
 @media (max-width: 767px) {
-  .header_img img {
-    width: 130px;
-    height: auto;
-  }
-
-  .horizontal-menu br {
-    display: none;
-  }
+  body { padding-top: 6px; }
+  .header_img img { width: 110px; }
+  .horizontal-menu ul { flex-wrap: nowrap; justify-content: flex-start; }
+  .horizontal-menu a { font-size: 14px; padding: 6px 12px; }
 }
 
-/* Keep logo, menu and select at full size inside the short phone header */
-.horizontal-menu,
-.header_logo,
-.header_img,
-form {
-  flex-shrink: 0;
-}
-
-@media (max-width: 767px) {
-  .header_logo img {
-    width: 100px;
-    height: auto;
-  }
-
-  .header_logo {
-    margin-top: 6px;
-  }
-
-  form select {
-    margin-top: 2px;
-    padding: 6px 10px;
-  }
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
 }

@@ -2,150 +2,109 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Cursed Entertainment | Home</title>
-    <meta name="description" content="Cursed Entertainment: games, music, stories, films and tools. It's Damn Fun.">
-    <link rel="icon" type="image/png" href="../cursedFavicon.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../styles/main-style.css" rel="stylesheet" type="text/css">
-    <link href="../styles/home-style.css" rel="stylesheet" type="text/css">
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/@google/model-viewer@1.12.0/dist/model-viewer.min.js"></script>
-    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script defer src="../scripts/init-owl-carousel.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cursed Entertainment | Home</title>
+  <meta name="description" content="Cursed Entertainment: games, music, stories, films and tools. It's Damn Fun.">
+  <link rel="icon" type="image/png" href="../cursedFavicon.png">
+  <link href="../site/style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
-    <div class="mobile-hide">
-        <div class="twittercontainer">
-            <div id="twitter-timeline"> <a class="twitter-timeline" data-width="500" data-height="600"
-                    data-theme="light" href="https://twitter.com/NorowaretaGemu">Tweets by NorowaretaGemu</a> </div>
+<body data-root="../" data-page="home" data-kofi>
+  <header id="site-header" class="site-header"></header>
+
+  <section class="hero">
+    <span class="osd osd-play">PLAY <b>▶</b></span>
+    <span class="osd osd-sp">SP</span>
+    <span id="vhs-clock" class="osd osd-clock"></span>
+    <img class="logo" src="../images/logos/cursed-logo.png" alt="Cursed Entertainment" width="554" height="298">
+    <h1>It's Damn Fun</h1>
+    <p>Games, tools, music, stories and films from the other side of the tape. Be kind, rewind.</p>
+  </section>
+
+  <main>
+    <nav class="doors" aria-label="Sections">
+      <a class="door" href="games/games.html"><b>Games</b><span>Arcade horror, the Myxztrii saga</span></a>
+      <a class="door" href="tools/tools.html"><b>Tools</b><span>Changeling, AetherCanvas, PulseAmp</span></a>
+      <a class="door" href="music/soundtracks/soundtracks.html"><b>Music</b><span>Soundtracks, EPs, the label</span></a>
+      <a class="door" href="stories/stories.html"><b>Stories</b><span>Books and Farica☆Kimora</span></a>
+      <a class="door" href="https://arcade-phantasm.netlify.app/"><b>Arcade Phantasm</b><span>The haunted arcade</span></a>
+    </nav>
+
+    <section class="shelf">
+      <div class="shelf-head">
+        <h2 class="flicker">Fresh from the crypt</h2>
+        <p>The newest things to crawl out.</p>
+      </div>
+      <div id="featured" class="grid"></div>
+    </section>
+
+    <section class="shelf">
+      <div class="shelf-head">
+        <h2 class="flicker">Tapes</h2>
+        <p>Videos by Cursed Entertainment. Click a tape to play it.</p>
+      </div>
+      <div id="videos" class="tapes"></div>
+    </section>
+
+    <section class="shelf">
+      <div class="banners">
+        <a class="banner" href="https://cursed-entertainment.itch.io/araknia"><img src="../images/banner-ads/araknia-ad.png" alt="Araknia" loading="lazy"></a>
+        <a class="banner" href="https://cursed-entertainment.itch.io/nystylla"><img src="../images/banner-ads/nystylla-ad.jpg" alt="Nystylla" loading="lazy"></a>
+        <a class="banner" href="https://ce-chat.netlify.app/"><img src="../images/banner-ads/cechat-ad.png" alt="CEChat" loading="lazy"></a>
+      </div>
+    </section>
+
+    <section class="shelf">
+      <div class="shelf-head">
+        <h2 class="flicker">Who we are</h2>
+        <p>An indie studio of games, books and music. It's Damn Fun.</p>
+      </div>
+      <div class="about">
+        <div>
+          <h3>The worlds</h3>
+          <p>Sci-fi, horror and adventure games with puzzles to chew on, and the lore of the Myxztrii told through our books and music.</p>
         </div>
-    </div>
-
-    <div class="mobile-hide">
-        <div id="discord">
-            <iframe loading="lazy" title="Discord server" src="https://discord.com/widget?id=1026143766010138714&theme=dark" width="300" height="500"
-                allowtransparency="true" frameborder="0"
-                sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        <div>
+          <h3>The tools</h3>
+          <p>Software we build for ourselves and give away: Unity AI, face changers, visual AI and audio gear.</p>
         </div>
-    </div>
-
-    <div class="qr-container">
-        <div id="qr-code"> <a href="https://linktr.ee/cursedentertainment"> <img src="../images/qr-codes/cursed-qr.jpg"
-                    alt="QR Code" width="150" height="150"></a></div>
-    </div>
-
-    <div class="header_container">
-        <iframe title="Site header" src="../iframes/header/page-headers/home-header.html" frameborder="0" width="100%"
-            height="500px"></iframe>
-    </div>
-
-    <div class="home-content">
-        <div class="content">
-
-<div class="banner-ad">
-    <a href="https://cursed-entertainment.itch.io/araknia" target="_parent">
-        <img src="../images/banner-ads/araknia-ad.png" alt="Araknia Advert">
-    </a>
-</div>
-
-            <p><i>Videos by Cursed Entertainment</i></p>
-            <div class="videocontainer">
-                <div class="owl-carousel">
-                    <div class="video">
-                        <iframe loading="lazy" title="Video" src="https://www.youtube.com/embed/2MdBFC1E0fk" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
-                    <div class="video">
-                        <iframe loading="lazy" title="Video" src="https://www.youtube.com/embed/KEPp2y7wWu8" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
-                    <div class="video">
-                        <iframe loading="lazy" title="Video" src="https://www.youtube.com/embed/HbQUXI_3F7k" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
-                    <div class="video">
-                        <iframe loading="lazy" title="Video" src="https://www.youtube.com/embed/vltgO1ylQlU" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
-                    <div class="video">
-                        <iframe loading="lazy" title="Video" src="https://www.youtube.com/embed/54KuiSmx75o" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
-                    <div class="video">
-                        <iframe loading="lazy" title="Video" src="https://www.youtube.com/embed/L34FoY8-7aM" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-
-            <iframe loading="lazy" title="About Cursed Entertainment" src="home-content.html" onload="try{this.style.height=this.contentDocument.documentElement.scrollHeight+&#39;px&#39;}catch(e){}" frameborder="0" width="100%" height="1300px"
-                style="overflow: hidden; border-radius: 5%; border: thin solid #ffffff; margin-top: 2%; margin-bottom: 2%;"></iframe>
-
-            <div class="banner-ad"> <a href="https://ce-chat.netlify.app/" target="_parent"> <img
-                        src="../images/banner-ads/cechat-ad.png" alt="CEChat Advert"></a> </div>
-
-            <p><i>Fan Videos</i></p>
-            <div class="videocontainer">
-                <div class="owl-carousel">
-                    <div class="video">
-                        <iframe loading="lazy" title="Video" src="https://www.youtube.com/embed/A8VBdjrVY9w" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
-                    <div class="video">
-                        <iframe loading="lazy" title="Video" src="https://www.youtube.com/embed/22PiaowtG-8" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
-                    <div class="video">
-                        <iframe loading="lazy" title="Video" src="https://www.youtube.com/embed/jziBoYmEyTc" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-
-            <div class="banner-ad"> <a href="https://cursed-entertainment.itch.io/nystylla" target="_parent"> <img
-                        src="../images/banner-ads/nystylla-ad.jpg" alt="Nystylla Advert"></a> </div>
-
-            <div class="mobile-hide">
-                <iframe loading="lazy" title="CEChat" src="https://ce-chat.netlify.app/" width="100%" height="800px" frameborder="0" allowfullscreen
-                    style="border-radius: 5%; border: thin solid #ffffff; margin-top: 2%; margin-bottom: 2%;"></iframe>
-            </div>
-
-<iframe title="Behance project" src="https://www.behance.net/embed/project/174862601?ilo0=1" height="250px" width="100%"
-    allowfullscreen loading="lazy" frameborder="0" allow="clipboard-write"
-    referrerpolicy="strict-origin-when-cross-origin" style="border-radius: 5%; border: thin solid #34A9E3;"></iframe>
-
+        <div>
+          <h3>The label</h3>
+          <p>An independent record label for punk, metal and experimental music. Up-and-coming artists, let's make some noise.</p>
         </div>
-    </div>
+        <div>
+          <h3>The vision</h3>
+          <p>Keep pushing what games, books and music can be, and leave a mark that won't wash off.</p>
+        </div>
+      </div>
+    </section>
 
-    <div class="icons_container" width="100%"><iframe loading="lazy" title="Social media links" src="../iframes/social-media-icons/social-media-icons.html"
-            frameborder="0" width="100%"></iframe></div>
+    <section class="shelf">
+      <div class="shelf-head">
+        <h2 class="flicker">Fan tapes</h2>
+        <p>Videos made by you.</p>
+      </div>
+      <div id="fan-videos" class="tapes"></div>
+    </section>
 
-    <footer id="dynamicFooter"></footer>
-    <script src="../scripts/footer.js"></script>
-        <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-<script>
-  kofiWidgetOverlay.draw('cursedentertainment', {
-    'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'Support me',
-    'floating-chat.donateButton.background-color': '#323842',
-    'floating-chat.donateButton.text-color': '#fff'
-  });
-</script>
+    <section class="shelf">
+      <div class="shelf-head">
+        <h2 class="flicker">Hang out</h2>
+        <p>The Discord and CEChat.</p>
+      </div>
+      <div class="hangout">
+        <iframe class="discord" loading="lazy" title="Discord server" src="https://discord.com/widget?id=1026143766010138714&amp;theme=dark" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        <iframe class="chat" loading="lazy" title="CEChat" src="https://ce-chat.netlify.app/"></iframe>
+      </div>
+      <iframe class="behance" title="Behance project" src="https://www.behance.net/embed/project/174862601?ilo0=1" loading="lazy" allow="clipboard-write" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer"></footer>
+
+  <script src="../site/catalog.js"></script>
+  <script src="../site/site.js"></script>
 </body>
 
 </html>
