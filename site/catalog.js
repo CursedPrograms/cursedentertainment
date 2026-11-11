@@ -34,7 +34,7 @@ window.CATALOG = {
                    github: GH + "KillerStardust" } },
         { title: "Comets and the Commander", tag: "Browser 3D RTS",
           text: "Command a carrier at the centre of a sphere of space: mine comets, build a fleet, hold the void.",
-          links: { play: PAGES + "comet-and-commander/", github: GH + "comet-and-commander" } }
+          links: { play: PAGES + "comets-and-the-commander/", github: GH + "comets-and-the-commander" } }
       ]
     },
     {
